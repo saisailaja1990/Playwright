@@ -8,7 +8,8 @@ test('test', async ({ page }) => {
 
   await page.getByPlaceholder('password').fill('admin123');
   await page.locator('button[type="submit"]').click();
-  //await page.waitForTimeout(5000);
-
+  await page.waitForTimeout(5000);
+    console.log('Good Luck')
+    console.log('Success')
   //await expect(page.locator('[src="/web/images/orangehrm-logo.png?v=1721393199309"]'))
 });
