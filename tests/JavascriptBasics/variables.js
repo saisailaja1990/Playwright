@@ -1,3 +1,6 @@
-// let, var, const are the varibles in java script
-let m=10;
-console.log(m);
+
+let c={great:'hey'}
+let d;
+d=c;
+c.great='hello';
+console.log(d.great);
