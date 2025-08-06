@@ -38,7 +38,7 @@ test('Radiobuttons with alert text capture', async ({ page }) => {
 
     // Combine all into a full message
     const fullMessage = `${beforeText} ${domText?.trim() || ''} ${afterText}`.trim();
-    console.log(`Selected: ${selector} | Message: "${fullMessage}"`);
+    console.log(`| Message: "${fullMessage}"`);
   }
 
   console.log('All radiobuttons checked and messages captured.');
