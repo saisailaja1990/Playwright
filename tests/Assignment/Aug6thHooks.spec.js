@@ -29,7 +29,7 @@ test.afterEach(async ({ page }) => {
   console.log('Logout successful');
 });
 
-// ✅ Now the actual test
+// Test senerios for Assignment - Aug 6th Hooks
 test('1.Validate dashboard contains dashboard text in URL', async ({ page }) => {
   // Since login is already done in beforeEach, just validate
   await expect(page).toHaveURL(/dashboard/);
