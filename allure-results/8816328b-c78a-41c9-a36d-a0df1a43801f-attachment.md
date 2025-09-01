@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9] [cursor=pointer]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17] [cursor=pointer]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24] [cursor=pointer]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40] [cursor=pointer]: PIM
+            - listitem [ref=e41]:
+              - link "Leave" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45] [cursor=pointer]: Leave
+            - listitem [ref=e46]:
+              - link "Time" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53] [cursor=pointer]: Time
+            - listitem [ref=e54]:
+              - link "Recruitment" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61] [cursor=pointer]: Recruitment
+            - listitem [ref=e62]:
+              - link "My Info" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69] [cursor=pointer]: My Info
+            - listitem [ref=e70]:
+              - link "Performance" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79] [cursor=pointer]: Performance
+            - listitem [ref=e80]:
+              - link "Dashboard" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84] [cursor=pointer]: Dashboard
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89] [cursor=pointer]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95] [cursor=pointer]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100] [cursor=pointer]
+                - generic [ref=e104] [cursor=pointer]: Claim
+            - listitem [ref=e105]:
+              - link "Buzz" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109] [cursor=pointer]: Buzz
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - heading "Admin" [level=6] [ref=e114]
+        - link "Upgrade" [ref=e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e117] [cursor=pointer]: Upgrade
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - img "profile picture" [ref=e126] [cursor=pointer]
+              - paragraph [ref=e127] [cursor=pointer]: Hoda Li
+              - generic [ref=e128] [cursor=pointer]: 
+      - navigation "Topbar Menu" [ref=e130]:
+        - list [ref=e131]:
+          - listitem [ref=e132] [cursor=pointer]:
+            - generic [ref=e133] [cursor=pointer]:
+              - text: User Management
+              - generic [ref=e134] [cursor=pointer]: 
+          - listitem [ref=e135] [cursor=pointer]:
+            - generic [ref=e136] [cursor=pointer]:
+              - text: Job
+              - generic [ref=e137] [cursor=pointer]: 
+          - listitem [ref=e138] [cursor=pointer]:
+            - generic [ref=e139] [cursor=pointer]:
+              - text: Organization
+              - generic [ref=e140] [cursor=pointer]: 
+          - listitem [ref=e141] [cursor=pointer]:
+            - generic [ref=e142] [cursor=pointer]:
+              - text: Qualifications
+              - generic [ref=e143] [cursor=pointer]: 
+          - listitem [ref=e144] [cursor=pointer]:
+            - link "Nationalities" [ref=e145] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e146] [cursor=pointer]:
+            - link "Corporate Branding" [ref=e147] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e148] [cursor=pointer]:
+            - generic [ref=e149] [cursor=pointer]:
+              - text: Configuration
+              - generic [ref=e150] [cursor=pointer]: 
+          - button "" [ref=e152] [cursor=pointer]:
+            - generic [ref=e153] [cursor=pointer]: 
+  - generic [ref=e154]:
+    - generic [ref=e157]:
+      - heading "Add Job Title" [level=6] [ref=e158]
+      - separator [ref=e159]
+      - generic [ref=e160]:
+        - generic [ref=e162]:
+          - generic [ref=e164]: Job Title*
+          - textbox [ref=e166]: AutomationEngineer
+        - generic [ref=e168]:
+          - generic [ref=e170]: Job Description
+          - textbox "Type description here" [ref=e172]: "Automation & Manual Testing: Selenium Web Driver using JAVA, Selenium IDE, Test NG & POM, BDD With Cucumber Framework MAVEN Cypress with page object model using Java script is in progress. Integration Testing : REST API testing using POSTMAN, Swagger, Exposure with JSON, Using Different Methods and performing CRUD operations on endpoints Writing test cases and postman assertions with JavaScript Running collection with multiple instances Mocking APIs Newman for CI/CD with Jenkins-Scheduling, email notifications, Build run Generating html reports with Newman API Automation testing with REST Assured library- JAVA Programming Skills: Core Java Operating Systems: Windows Coding Platforms: Eclipse, IntelliJ Database: Basic Knowledge in MY SQL Server with SQL Packages: Microsoft Office Others: Git, Git Hub, Jenkins Project Management tool: JIRA, Confluence, Xray The ISTQB® Foundation Level Agile Tester (CTFL-AT)"
+          - generic [ref=e173]: Should not exceed 400 characters
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e177]: Job Specification
+            - generic [ref=e178]:
+              - button "Choose File" [active]
+              - generic [ref=e179]:
+                - generic [ref=e180] [cursor=pointer]: Browse
+                - generic [ref=e181]: No file chosen
+                - generic [ref=e182] [cursor=pointer]: 
+          - paragraph [ref=e183]: Accepts up to 1MB
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]: 
+            - generic [ref=e188]: Note
+          - textbox "Add note" [ref=e190]
+        - separator [ref=e191]
+        - generic [ref=e192]:
+          - paragraph [ref=e193]: "* Required"
+          - button "Cancel" [ref=e194] [cursor=pointer]
+          - button "Save" [ref=e195] [cursor=pointer]
+    - generic [ref=e196]:
+      - paragraph [ref=e197]: OrangeHRM OS 5.7
+      - paragraph [ref=e198]:
+        - text: © 2005 - 2025
+        - link "OrangeHRM, Inc" [ref=e199] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```
