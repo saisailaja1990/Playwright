@@ -1,0 +1,20 @@
+Auth Token: 4dcdf5ef1da5a8a
+Created Booking: {
+  bookingid: 1578,
+  booking: {
+    firstname: 'qti38',
+    lastname: 'Doe',
+    totalprice: 150,
+    depositpaid: true,
+    bookingdates: { checkin: '2036-05-28', checkout: '2023-10-10' },
+    additionalneeds: 'Breakfast'
+  }
+}
+Booking Details: {
+  firstname: 'qti38',
+  lastname: 'Doe',
+  totalprice: 150,
+  depositpaid: true,
+  bookingdates: { checkin: '2036-05-28', checkout: '2023-10-10' },
+  additionalneeds: 'Breakfast'
+}
