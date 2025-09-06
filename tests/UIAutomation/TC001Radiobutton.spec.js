@@ -8,7 +8,7 @@ test('Checkboxes', async ({ page }) => {
   const checkbox = page.locator('input[id="sunday"]',{ timeout: 10000 });
 
   
-  await checkbox.check();
+  
 
   await expect(checkbox).toBeChecked();
 
