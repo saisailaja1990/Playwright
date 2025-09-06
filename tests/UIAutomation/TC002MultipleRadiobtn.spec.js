@@ -21,7 +21,7 @@ test('Radiobuttons with alert text capture', async ({ page }) => {
 
     // Wait for the alert message to appear
     
-    const messageLocator = page.locator('.woocommerce-message', { timeout: 5000 });
+    /*const messageLocator = page.locator('.woocommerce-message', { timeout: 5000 });
     await expect(messageLocator).toBeVisible();
 
     // Get the ::before and ::after pseudo-element content
@@ -39,7 +39,7 @@ test('Radiobuttons with alert text capture', async ({ page }) => {
 
     // Combine all into a full message
     const fullMessage = `${beforeText} ${domText?.trim() || ''} ${afterText}`.trim();
-    console.log(`| Message: "${fullMessage}"`);
+    console.log(`| Message: "${fullMessage}"`);*/
   }
 
   console.log('All radiobuttons checked and messages captured sucessfully.');

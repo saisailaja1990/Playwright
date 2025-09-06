@@ -1,0 +1,386 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e11]:
+        - generic [ref=e16]:
+          - 'link " US: +1 308-888-6496" [ref=e17] [cursor=pointer]':
+            - /url: tel:+13088886496
+            - generic [ref=e18] [cursor=pointer]: 
+            - generic [ref=e19] [cursor=pointer]: "US: +1 308-888-6496"
+          - 'link " India : +91 888-4-777-300" [ref=e20] [cursor=pointer]':
+            - /url: tel:+918884777300
+            - generic [ref=e21] [cursor=pointer]: 
+            - generic [ref=e22] [cursor=pointer]: "India : +91 888-4-777-300"
+          - link " UK :+44 744 538 1114" [ref=e23] [cursor=pointer]:
+            - /url: tel:+447445381114
+            - generic [ref=e24] [cursor=pointer]: 
+            - generic [ref=e25] [cursor=pointer]: UK :+44 744 538 1114
+          - link " U.A.E :+971 54-776-1925" [ref=e26] [cursor=pointer]:
+            - /url: tel:+971547761925
+            - generic [ref=e27] [cursor=pointer]: 
+            - generic [ref=e28] [cursor=pointer]: U.A.E :+971 54-776-1925
+        - list [ref=e34]:
+          - listitem [ref=e35]: "Follow Us:"
+          - listitem [ref=e36]:
+            - link "" [ref=e37] [cursor=pointer]:
+              - /url: https://www.facebook.com/dummyticket
+              - generic [ref=e38] [cursor=pointer]: 
+          - listitem [ref=e39]:
+            - link "" [ref=e40] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCgzTyJa8V6Lqfo6A2Jvg_MQ
+              - generic [ref=e41] [cursor=pointer]: 
+          - listitem [ref=e42]:
+            - link "" [ref=e43] [cursor=pointer]:
+              - /url: https://www.instagram.com/dummyticket/
+              - generic [ref=e44] [cursor=pointer]: 
+          - listitem [ref=e45]:
+            - link "" [ref=e46] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@dummytickets
+              - generic [ref=e47] [cursor=pointer]: 
+      - navigation [ref=e48]:
+        - generic [ref=e49]:
+          - generic:
+            - text: 
+            - link "Dummy ticket" [ref=e51] [cursor=pointer]:
+              - /url: https://www.dummyticket.com/
+              - img "Dummy ticket" [ref=e52] [cursor=pointer]
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Home" [ref=e56] [cursor=pointer]:
+                - /url: https://www.dummyticket.com/
+            - listitem [ref=e57]:
+              - link "Buy Ticket" [ref=e58] [cursor=pointer]:
+                - /url: https://www.dummyticket.com/dummy-ticket-for-visa-application/
+            - listitem [ref=e59]:
+              - link "Contact" [ref=e60] [cursor=pointer]:
+                - /url: https://www.dummyticket.com/contact/
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e69]:
+          - heading "Dummy ticket booking" [level=2] [ref=e70]:
+            - paragraph [ref=e71]
+            - paragraph [ref=e72]: Dummy ticket booking
+          - paragraph [ref=e73]: Please complete the below form and follow instructions in order to make your Dummy ticket
+        - generic [ref=e77]:
+          - heading [level=4] [ref=e78]:
+            - paragraph [ref=e79]
+          - heading "Choose the correct option:" [level=4] [ref=e80]
+          - paragraph
+          - generic [ref=e81]:
+            - list [ref=e83]:
+              - listitem [ref=e84]:
+                - radio [checked] [ref=e86]
+                - text: Dummy ticket for Visa Application
+                - generic [ref=e87]: —
+                - generic [ref=e90]:
+                  - generic [ref=e91]: USD $
+                  - text: "19.00"
+              - listitem [ref=e92]:
+                - radio [ref=e94]
+                - text: Dummy return ticket
+                - generic [ref=e95]: —
+                - generic [ref=e98]:
+                  - generic [ref=e99]: USD $
+                  - text: "15.00"
+              - listitem [ref=e100]:
+                - radio [ref=e102]
+                - text: Dummy hotel booking
+                - generic [ref=e103]: —
+                - generic [ref=e106]:
+                  - generic [ref=e107]: USD $
+                  - text: "20.00"
+              - listitem [ref=e108]:
+                - radio [ref=e110]
+                - text: Dummy ticket and hotel
+                - generic [ref=e111]: —
+                - generic [ref=e114]:
+                  - generic [ref=e115]: USD $
+                  - text: "35.00"
+              - listitem [ref=e116]:
+                - radio [ref=e118]
+                - text: Past dated ticket
+                - generic [ref=e119]: —
+                - generic [ref=e122]:
+                  - generic [ref=e123]: USD $
+                  - text: "35.00"
+            - generic [ref=e125]:
+              - text: Have a coupon?
+              - button "Enter your coupon code" [ref=e126] [cursor=pointer]: Click here to enter your code
+            - form "Checkout" [ref=e127]:
+              - generic [ref=e129]:
+                - generic [ref=e131]:
+                  - heading "Passenger details:" [level=3] [ref=e132]
+                  - paragraph [ref=e133]:
+                    - generic [ref=e134]:
+                      - text: First / Given name
+                      - generic [ref=e135]: "*"
+                    - textbox "First / Given name" [ref=e137]
+                  - paragraph [ref=e138]:
+                    - generic [ref=e139]:
+                      - text: Last / Surname
+                      - generic [ref=e140]: "*"
+                    - textbox "Last / Surname" [ref=e142]
+                  - paragraph [ref=e143]:
+                    - generic [ref=e144]:
+                      - text: Date of birth
+                      - generic [ref=e145]: "*"
+                    - textbox "Date of birth" [ref=e147]
+                  - paragraph [ref=e148]:
+                    - generic [ref=e149]:
+                      - text: Sex
+                      - generic [ref=e150]: "*"
+                    - generic [ref=e151]:
+                      - radio "Male" [ref=e152]
+                      - generic [ref=e153]: Male
+                      - radio "Female" [ref=e154]
+                      - generic [ref=e155]: Female
+                  - paragraph [ref=e156]:
+                    - generic [ref=e158]:
+                      - 'checkbox "Add more passengers: (optional)" [ref=e159]'
+                      - text: "Add more passengers:"
+                      - generic [ref=e160]: (optional)
+                  - heading "Travel Details" [level=2] [ref=e161]
+                  - paragraph [ref=e162]:
+                    - generic [ref=e163]:
+                      - text: Trip type
+                      - generic [ref=e164]: "*"
+                    - generic [ref=e165]:
+                      - radio "One Way" [checked] [ref=e166]
+                      - generic [ref=e167]: One Way
+                      - radio "Round trip" [ref=e168]
+                      - generic [ref=e169]: Round trip
+                  - paragraph [ref=e170]:
+                    - generic [ref=e171]:
+                      - text: From city / Origin
+                      - generic [ref=e172]: "*"
+                    - textbox "From city / Origin" [ref=e174]
+                  - paragraph [ref=e175]:
+                    - generic [ref=e176]:
+                      - text: To city. /Dest.
+                      - generic [ref=e177]: "*"
+                    - textbox "To city. /Dest." [ref=e179]
+                  - paragraph [ref=e180]:
+                    - generic [ref=e181]:
+                      - text: Departure date
+                      - generic [ref=e182]: "*"
+                    - textbox "Departure date" [ref=e184]
+                  - paragraph [ref=e185]:
+                    - generic [ref=e186]:
+                      - text: Additional information
+                      - generic [ref=e187]: (optional)
+                    - textbox "Additional information (optional)" [ref=e189]
+                  - heading "Delivery options:" [level=2] [ref=e190]
+                  - paragraph [ref=e191]:
+                    - generic [ref=e192]:
+                      - text: Purpose of dummy ticket
+                      - generic [ref=e193]: (optional)
+                    - generic [ref=e194]:
+                      - combobox [ref=e195] [cursor=pointer]
+                      - combobox "×Visa application" [ref=e198] [cursor=pointer]:
+                        - textbox "Visa application" [ref=e199] [cursor=pointer]:
+                          - generic [ref=e200] [cursor=pointer]: ×
+                  - paragraph [ref=e201]:
+                    - generic [ref=e202]:
+                      - text: Appointment / Submission date
+                      - generic [ref=e203]: (optional)
+                    - textbox "Appointment / Submission date (optional)" [ref=e205]
+                  - paragraph [ref=e206]:
+                    - generic [ref=e207]:
+                      - text: How will you like to receive the dummy ticket
+                      - generic [ref=e208]: (optional)
+                    - generic [ref=e209]:
+                      - radio "Email" [ref=e210]
+                      - generic [ref=e211]: Email
+                      - radio "WhatsApp" [ref=e212]
+                      - generic [ref=e213]: WhatsApp
+                      - radio "Both" [ref=e214]
+                      - generic [ref=e215]: Both
+                  - generic [ref=e216]:
+                    - heading "Billing Details" [level=2] [ref=e218]
+                    - paragraph [ref=e219]:
+                      - generic [ref=e220]:
+                        - text: Billing Name / Company
+                        - generic [ref=e221]: (optional)
+                      - textbox "Billing Name / Company (optional)" [ref=e223]
+                    - paragraph [ref=e224]:
+                      - generic [ref=e225]:
+                        - text: Phone
+                        - generic [ref=e226]: "*"
+                      - textbox "Phone" [ref=e228]
+                    - paragraph [ref=e229]:
+                      - generic [ref=e230]:
+                        - text: Email address
+                        - generic [ref=e231]: "*"
+                      - textbox "Email address" [ref=e233]
+                    - paragraph [ref=e234]:
+                      - generic [ref=e235]:
+                        - text: Country
+                        - generic [ref=e236]: "*"
+                      - generic [ref=e237]:
+                        - combobox [ref=e238] [cursor=pointer]
+                        - combobox "Country" [ref=e241] [cursor=pointer]:
+                          - textbox "Sweden" [ref=e242] [cursor=pointer]
+                    - paragraph [ref=e243]:
+                      - generic [ref=e244]:
+                        - text: Street address
+                        - generic [ref=e245]: "*"
+                      - textbox "Street address" [ref=e247]
+                    - paragraph [ref=e248]:
+                      - generic [ref=e249]:
+                        - text: Flat, suite, unit, etc.
+                        - generic [ref=e250]: (optional)
+                      - textbox "Flat, suite, unit, etc. (optional)" [ref=e252]
+                    - paragraph [ref=e253]:
+                      - generic [ref=e254]:
+                        - text: Postcode / ZIP
+                        - generic [ref=e255]: "*"
+                      - textbox "Postcode / ZIP" [ref=e257]
+                    - paragraph [ref=e258]:
+                      - generic [ref=e259]:
+                        - text: Town / City
+                        - generic [ref=e260]: "*"
+                      - textbox "Town / City" [ref=e262]
+                - generic [ref=e264]:
+                  - heading "Additional information" [level=3] [ref=e265]
+                  - paragraph [ref=e267]:
+                    - generic [ref=e268]:
+                      - text: Order Notes
+                      - generic [ref=e269]: (optional)
+                    - textbox "Order Notes (optional)" [ref=e271]
+              - heading "Your order" [level=3] [ref=e272]
+              - generic [ref=e273]:
+                - table [ref=e275]:
+                  - rowgroup [ref=e276]:
+                    - row "Product Quantity Total" [ref=e277]:
+                      - cell "Product Quantity" [ref=e278]:
+                        - text: Product
+                        - generic [ref=e279]: Quantity
+                      - cell "Total" [ref=e280]
+                  - rowgroup [ref=e281]:
+                    - row "× Dummy return ticket 1 USD $15.00" [ref=e282]:
+                      - cell "× Dummy return ticket 1" [ref=e283]:
+                        - link "×" [ref=e285] [cursor=pointer]:
+                          - /url: https://www.dummyticket.com/dummy-ticket-order-page/?remove_item=01f78be6f7cad02658508fe4616098a9&_wpnonce=d1abc8389d
+                        - generic [ref=e286]: Dummy return ticket
+                        - generic [ref=e287]: "1"
+                      - cell "USD $15.00" [ref=e288]:
+                        - generic [ref=e290]:
+                          - generic [ref=e291]: USD $
+                          - text: "15.00"
+                  - rowgroup [ref=e292]:
+                    - row "Cart Subtotal USD $15.00" [ref=e293]:
+                      - cell "Cart Subtotal" [ref=e294]
+                      - cell "USD $15.00" [ref=e295]:
+                        - generic [ref=e297]:
+                          - generic [ref=e298]: USD $
+                          - text: "15.00"
+                    - row "Order Total USD $15.00" [ref=e299]:
+                      - cell "Order Total" [ref=e300]
+                      - cell "USD $15.00" [ref=e301]:
+                        - strong [ref=e302]:
+                          - generic [ref=e304]:
+                            - generic [ref=e305]: USD $
+                            - text: "15.00"
+                - generic [ref=e307]:
+                  - list [ref=e308]:
+                    - listitem [ref=e309]:
+                      - radio "Credit / Debit Card Credit / Debit Card" [checked] [ref=e310]
+                      - generic [ref=e311]:
+                        - text: Credit / Debit Card
+                        - img "Credit / Debit Card" [ref=e312]
+                      - group [ref=e314]:
+                        - alert
+                    - listitem [ref=e315]:
+                      - radio "Debit / Credit Card Payment Debit / Credit Card Payment" [ref=e316]
+                      - generic [ref=e317]:
+                        - text: Debit / Credit Card Payment
+                        - img "Debit / Credit Card Payment" [ref=e318]
+                  - button "Place order" [ref=e320] [cursor=pointer]
+          - paragraph
+      - generic [ref=e326]:
+        - generic [ref=e329]:
+          - link "Home" [ref=e330] [cursor=pointer]:
+            - /url: https://www.dummyticket.com/
+            - generic [ref=e331] [cursor=pointer]: Home
+          - link "About" [ref=e332] [cursor=pointer]:
+            - /url: https://www.dummyticket.com/about
+            - generic [ref=e333] [cursor=pointer]: About
+          - link "Buy Ticket" [ref=e334] [cursor=pointer]:
+            - /url: https://www.dummyticket.com/dummy-ticket-for-visa-application/
+            - generic [ref=e335] [cursor=pointer]: Buy Ticket
+          - link "Travel agents" [ref=e336] [cursor=pointer]:
+            - /url: https://www.dummyticket.com/travel-agent-registration-form/
+            - generic [ref=e337] [cursor=pointer]: Travel agents
+          - link "Affiliate Program" [ref=e338] [cursor=pointer]:
+            - /url: http://affiliate.dummyticket.com/
+            - generic [ref=e339] [cursor=pointer]: Affiliate Program
+          - link "FAQ" [ref=e340] [cursor=pointer]:
+            - /url: https://www.dummyticket.com/faq
+            - generic [ref=e341] [cursor=pointer]: FAQ
+          - link "Contact" [ref=e342] [cursor=pointer]:
+            - /url: https://www.dummyticket.com/contact
+            - generic [ref=e343] [cursor=pointer]: Contact
+        - list [ref=e346]:
+          - listitem [ref=e347]:
+            - link " " [ref=e348] [cursor=pointer]:
+              - /url: https://www.facebook.com/dummyticket/
+              - generic [ref=e349] [cursor=pointer]: 
+              - generic [ref=e350] [cursor=pointer]: 
+          - listitem [ref=e351]:
+            - link " " [ref=e352] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCgzTyJa8V6Lqfo6A2Jvg_MQ
+              - generic [ref=e353] [cursor=pointer]: 
+              - generic [ref=e354] [cursor=pointer]: 
+          - listitem [ref=e355]:
+            - link " " [ref=e356] [cursor=pointer]:
+              - /url: https://www.instagram.com/dummyticket/
+              - generic [ref=e357] [cursor=pointer]: 
+              - generic [ref=e358] [cursor=pointer]: 
+        - paragraph [ref=e360]:
+          - text: Copyright 2023
+          - link "DUMMYTICKET.COM" [ref=e361] [cursor=pointer]:
+            - /url: http://dummyticket.com
+          - text: © All Rights Reserved. Website designed and developed by
+          - link "Ktini Web Services" [ref=e362] [cursor=pointer]:
+            - /url: https://ktini.com/
+  - generic [ref=e364]:
+    - link "USD United States (US) dollar" [ref=e366]:
+      - /url: /dummy-ticket-for-visa-application/?wmc-currency=USD
+      - generic [ref=e367]: USD
+      - generic [ref=e368]: United States (US) dollar
+    - link "EUR Euro" [ref=e370] [cursor=pointer]:
+      - /url: /dummy-ticket-for-visa-application/?wmc-currency=EUR
+      - generic [ref=e371] [cursor=pointer]: EUR
+      - generic [ref=e372] [cursor=pointer]: Euro
+    - link "INR Indian rupee" [ref=e374] [cursor=pointer]:
+      - /url: /dummy-ticket-for-visa-application/?wmc-currency=INR
+      - generic [ref=e375] [cursor=pointer]: INR
+      - generic [ref=e376] [cursor=pointer]: Indian rupee
+    - link "GBP Pound sterling" [ref=e378] [cursor=pointer]:
+      - /url: /dummy-ticket-for-visa-application/?wmc-currency=GBP
+      - generic [ref=e379] [cursor=pointer]: GBP
+      - generic [ref=e380] [cursor=pointer]: Pound sterling
+    - link "CAD Canadian dollar" [ref=e382] [cursor=pointer]:
+      - /url: /dummy-ticket-for-visa-application/?wmc-currency=CAD
+      - generic [ref=e383] [cursor=pointer]: CAD
+      - generic [ref=e384] [cursor=pointer]: Canadian dollar
+    - link "AUD Australian dollar" [ref=e386] [cursor=pointer]:
+      - /url: /dummy-ticket-for-visa-application/?wmc-currency=AUD
+      - generic [ref=e387] [cursor=pointer]: AUD
+      - generic [ref=e388] [cursor=pointer]: Australian dollar
+    - link "PHP Philippine peso" [ref=e390] [cursor=pointer]:
+      - /url: /dummy-ticket-for-visa-application/?wmc-currency=PHP
+      - generic [ref=e391] [cursor=pointer]: PHP
+      - generic [ref=e392] [cursor=pointer]: Philippine peso
+    - link "AED United Arab Emirates dirham" [ref=e394] [cursor=pointer]:
+      - /url: /dummy-ticket-for-visa-application/?wmc-currency=AED
+      - generic [ref=e395] [cursor=pointer]: AED
+      - generic [ref=e396] [cursor=pointer]: United Arab Emirates dirham
+    - text: +
+  - button " WhatsApp" [ref=e397] [cursor=pointer]:
+    - generic [ref=e398] [cursor=pointer]: 
+    - generic [ref=e399] [cursor=pointer]: WhatsApp
+```

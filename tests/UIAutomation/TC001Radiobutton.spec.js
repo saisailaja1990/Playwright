@@ -4,10 +4,21 @@ let baseURL = "https://testautomationpractice.blogspot.com/"
 test('Checkboxes', async ({ page }) => {
 
   await page.goto(baseURL);
+   // Locate the cookie "Got it" button
+  const cookieButton = page.locator('#cookieChoiceDismiss');
 
-const checkbox = page.locator('input[id="sunday"]');
+  // Check if the button is visible and click it
+  if (await cookieButton.isVisible()) {
+    await cookieButton.click();
+    console.log('Cookie banner dismissed!');
+  } else {
+    console.log('Cookie banner not visible.');
+  }
+
+const checkbox = page.locator('input[id="sunday"]', { timeout: 5000 });
 await checkbox.waitFor({ state: 'visible' }); // Add this line
-await expect(checkbox).toBeVisible(); // Confirm it's visible
+await expect(checkbox).toBeVisible();
+await checkbox.check(); // Confirm it's visible
 await expect(checkbox).toBeChecked();
 
   // Uncheck the checkbox
