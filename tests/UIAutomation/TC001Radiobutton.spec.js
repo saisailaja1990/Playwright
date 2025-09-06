@@ -5,9 +5,9 @@ test('Checkboxes', async ({ page }) => {
 
   await page.goto(baseURL);
 
-const checkbox = await page.locator('input[id="sunday"]');
-await expect(checkbox).toBeVisible({ timeout: 10000 }); // Wait up to 10s
-await checkbox.check();
+const checkbox = page.locator('input[id="sunday"]');
+await checkbox.waitFor({ state: 'visible' }); // Add this line
+await expect(checkbox).toBeVisible(); // Confirm it's visible
 await expect(checkbox).toBeChecked();
 
   // Uncheck the checkbox
