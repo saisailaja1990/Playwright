@@ -5,7 +5,8 @@ test('Checkboxes', async ({ page }) => {
 
   await page.goto(baseURL);
 
-  const checkbox = page.locator('input[id="sunday"]');
+  const checkbox = page.locator('input[id="sunday"]',{ timeout: 10000 });
+
   
   await checkbox.check();
 
