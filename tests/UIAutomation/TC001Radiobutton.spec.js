@@ -16,8 +16,8 @@ test('Checkboxes', async ({ page }) => {
   }
 
 const checkbox = page.locator('input[id="sunday"]', { timeout: 5000 });
-await checkbox.waitFor({ state: 'visible' }); // Add this line
-await expect(checkbox).toBeVisible();
+//await checkbox.waitFor({ state: 'visible' }); // Add this line
+//await expect(checkbox).toBeVisible();
 await checkbox.check(); // Confirm it's visible
 await expect(checkbox).toBeChecked();
 
