@@ -15,7 +15,7 @@ test('Checkboxes', async ({ page }) => {
     console.log('Cookie banner not visible.');
   }
 
-const checkbox = page.locator('input[id="sunday"]','{ timeout: 500git00 }');
+const checkbox = page.locator('input[id="sunday"]','{ timeout: 50000 }');
 //await checkbox.waitFor({ state: 'visible' }); // Add this line
 //await expect(checkbox).toBeVisible();
 
