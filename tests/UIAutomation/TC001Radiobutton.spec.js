@@ -18,6 +18,7 @@ test('Checkboxes', async ({ page }) => {
 const checkbox = page.locator('input[id="sunday"]','{ timeout: 500git00 }');
 //await checkbox.waitFor({ state: 'visible' }); // Add this line
 //await expect(checkbox).toBeVisible();
+
 await checkbox.check(); // Confirm it's visible
 await expect(checkbox).toBeChecked();
 
@@ -50,5 +51,6 @@ await expect(checkbox).toBeChecked();
     await radioButtonFemale.check();
     await expect(radioButtonFemale).toBeChecked();
     await expect(radioButtonMale).not.toBeChecked();
+    console.log('Flaky Test completed successfully.');
     
 });
