@@ -1,0 +1,2 @@
+Cookie banner not visible.
+Flaky Test completed successfully.
