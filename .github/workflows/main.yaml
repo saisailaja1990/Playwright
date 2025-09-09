@@ -29,7 +29,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test tests\UIAutomation\TC001Radiobutton.spec.js
+        run: npx playwright test tests/UIAutomation/TC001Radiobutton.spec.js
 
       - name: Install Allure CLI
         run: npm install -g allure-commandline --save-dev
