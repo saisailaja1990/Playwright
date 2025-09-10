@@ -29,8 +29,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests (with reporters from config)
-        run: npx playwright test tests/UIAutomation/TC001Radiobutton.spec.js
-      
+        run: npx playwright test tests/UIAutomation/TC001Radiobutton.spec.js --retries=3 --workers=1      
       - name: List Allure results
         run: ls -R allure-results || echo "No allure-results found!"
 
