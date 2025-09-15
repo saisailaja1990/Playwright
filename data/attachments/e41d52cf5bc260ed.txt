@@ -1,0 +1,21 @@
+Auth Token: d44688e2ba2f3dc
+Created Booking: {
+  bookingid: 1218,
+  booking: {
+    firstname: 'gUnZF',
+    lastname: 'Doe',
+    totalprice: 150,
+    depositpaid: true,
+    bookingdates: { checkin: '2067-12-22', checkout: '2023-10-10' },
+    additionalneeds: 'Breakfast'
+  }
+}
+Booking Details: {
+  firstname: 'gUnZF',
+  lastname: 'Doe',
+  totalprice: 150,
+  depositpaid: true,
+  bookingdates: { checkin: '2067-12-22', checkout: '2023-10-10' },
+  additionalneeds: 'Breakfast'
+}
+Script executed successfully
