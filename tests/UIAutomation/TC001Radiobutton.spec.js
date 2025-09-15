@@ -42,6 +42,11 @@ await expect(checkbox).toBeChecked();
     await checkbox.uncheck();
     await expect(checkbox).not.toBeChecked();
     }
+    let day = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    day.forEach((day,index) =>{
+      console.log(`${index}: ${day}`);
+    })
+    
     //Radio Button
     const radioButtonMale = page.locator('input[id="male"]');
     const radioButtonFemale = page.locator('input[id="female"]');
