@@ -1,0 +1,21 @@
+Auth Token: 32b08aa0197255f
+Created Booking: {
+  bookingid: 3792,
+  booking: {
+    firstname: '7r22spUQ',
+    lastname: 'Doe',
+    totalprice: 150,
+    depositpaid: true,
+    bookingdates: { checkin: '2071-08-05', checkout: '2023-10-10' },
+    additionalneeds: 'Breakfast'
+  }
+}
+Booking Details: {
+  firstname: '7r22spUQ',
+  lastname: 'Doe',
+  totalprice: 150,
+  depositpaid: true,
+  bookingdates: { checkin: '2071-08-05', checkout: '2023-10-10' },
+  additionalneeds: 'Breakfast'
+}
+Script executed successfully

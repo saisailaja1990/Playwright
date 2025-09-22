@@ -34,6 +34,8 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    video: 'on', // 👈 record video for each test
+    screenshot: 'only-on-failure', // 👈 optional, adds screenshots to report
   },
 
   /* Configure projects for major browsers */
@@ -84,6 +86,8 @@ export default defineConfig({
   /* Configure Allure reporter */
   reporter: [
     ['list'],
+     ['html', { outputFolder: 'playwright-report', open: 'never' }],
+   // ['allure-playwright', { outputFolder: 'allure-results' }],
     ['allure-playwright', { outputFolder: 'allure-results' }],]
 
 
