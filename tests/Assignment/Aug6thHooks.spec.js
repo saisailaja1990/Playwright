@@ -42,6 +42,51 @@ test('2.Validate Admin page contains Admin text in URL', async ({ page }) => {
     const currentUrl = page.url();
   expect(currentUrl.includes('admin')).toBeTruthy()
     console.log('User is in Admin page & validation successful');
+    // Step 2: Loop to create 10 users
+  for (let i = 1; i <= 10; i++) {
+    // Navigate to Admin > Add User
+    await page.click('a:has-text("Admin")');
+    await page.click('button:has-text("Add")');
+
+    // Fill form
+    // Step 2: Wait for and click the "ESS" option
+    await page.click("div.oxd-select-text-input");
+    await page.click("div[role='option']:has-text('ESS')");
+    //await page.locator('div[role="combobox"]').nth(0).click(); // User Role
+    //await page.locator('div[role="option"]:has-text("ESS")').click();
+
+    await page.fill('input[placeholder="Type for hints..."]', 'Rahul  Das');
+    await page.waitForTimeout(1000);
+    await page.locator('div[role="option"]').first().click();
+
+    const username = `autouser${i}`;
+    const password = 'Pass@1234';
+
+    await page.fill('input[name="username"]', username);
+    await page.locator('div[role="combobox"]').nth(1).click(); // Status
+    await page.locator('div[role="option"]:has-text("Enabled")').click();
+
+    await page.fill('input[name="password"]', password);
+    await page.fill('input[name="confirmPassword"]', password);
+
+    await page.click('button:has-text("Save")');
+    await page.waitForTimeout(2000);
+
+    // ✅ Verification: search for created user
+    await page.fill('input[placeholder="Username"]', username);
+    await page.click('button:has-text("Search")');
+    await page.waitForTimeout(2000);
+
+    // Expect the username to appear in the results table
+    const result = page.locator(`//div[text()="${username}"]`);
+    await expect(result).toBeVisible();
+
+    // Clear search before next iteration
+    await page.click('button:has-text("Reset")');
+    await page.waitForTimeout(1000);
+  }
+  console.log('10 users created successfully');
+    
 });
 test('3.Validate PIM page contains PIM text in URL', async ({ page }) => {
   await page.locator('a[href="/web/index.php/pim/viewPimModule"]').click();

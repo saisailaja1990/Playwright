@@ -16,6 +16,7 @@ test('API Chaining: Auth, Create Booking, Get Booking', async ({ page }) => {
     });
     console.log('username:',process.env.Applicationusername);
     console.log('password:',process.env.Applicationpassword);
+    
     expect(authResponse.status()).toBe(200);
     const authToken = (await authResponse.json()).token;
     console.log('Auth Token:', authToken);

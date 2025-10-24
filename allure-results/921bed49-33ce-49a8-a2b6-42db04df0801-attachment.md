@@ -1,0 +1,604 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9] [cursor=pointer]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Buscar" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17] [cursor=pointer]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Administrador" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24] [cursor=pointer]: Administrador
+            - listitem [ref=e25]:
+              - link "Módulo de Información Personal" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40] [cursor=pointer]: Módulo de Información Personal
+            - listitem [ref=e41]:
+              - link "Licencias y Permisos" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45] [cursor=pointer]: Licencias y Permisos
+            - listitem [ref=e46]:
+              - link "Tiempo" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53] [cursor=pointer]: Tiempo
+            - listitem [ref=e54]:
+              - link "Reclutamiento" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61] [cursor=pointer]: Reclutamiento
+            - listitem [ref=e62]:
+              - link "Mi Información" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69] [cursor=pointer]: Mi Información
+            - listitem [ref=e70]:
+              - link "Desempeño" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79] [cursor=pointer]: Desempeño
+            - listitem [ref=e80]:
+              - link "Pizarra de pendientes" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84] [cursor=pointer]: Pizarra de pendientes
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89] [cursor=pointer]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95] [cursor=pointer]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100] [cursor=pointer]
+                - generic [ref=e104] [cursor=pointer]: Claim
+            - listitem [ref=e105]:
+              - link "Buzz" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109] [cursor=pointer]: Buzz
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - generic [ref=e113]:
+            - heading "Administrador" [level=6] [ref=e114]
+            - heading "/ Administración de usuarios" [level=6] [ref=e115]
+        - link "Upgrade" [ref=e117]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e118] [cursor=pointer]: Upgrade
+        - list [ref=e124]:
+          - listitem [ref=e125]:
+            - generic [ref=e126] [cursor=pointer]:
+              - img "profile picture" [ref=e127] [cursor=pointer]
+              - paragraph [ref=e128] [cursor=pointer]: João Silva
+              - generic [ref=e129] [cursor=pointer]: 
+      - navigation "Topbar Menu" [ref=e131]:
+        - list [ref=e132]:
+          - listitem [ref=e133] [cursor=pointer]:
+            - generic [ref=e134] [cursor=pointer]:
+              - text: Administración de usuarios
+              - generic [ref=e135] [cursor=pointer]: 
+          - listitem [ref=e136] [cursor=pointer]:
+            - generic [ref=e137] [cursor=pointer]:
+              - text: Puesto de Trabajo
+              - generic [ref=e138] [cursor=pointer]: 
+          - listitem [ref=e139] [cursor=pointer]:
+            - generic [ref=e140] [cursor=pointer]:
+              - text: Estructura Organizacional
+              - generic [ref=e141] [cursor=pointer]: 
+          - listitem [ref=e142] [cursor=pointer]:
+            - generic [ref=e143] [cursor=pointer]:
+              - text: Currículum
+              - generic [ref=e144] [cursor=pointer]: 
+          - listitem [ref=e145] [cursor=pointer]:
+            - link "Nacionalidades" [ref=e146] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e147] [cursor=pointer]:
+            - generic [ref=e148] [cursor=pointer]:
+              - text: More
+              - generic [ref=e149] [cursor=pointer]: 
+          - button "" [ref=e151] [cursor=pointer]:
+            - generic [ref=e152] [cursor=pointer]: 
+  - generic [ref=e153]:
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - heading "Usuarios del Sistema" [level=5] [ref=e159]
+          - button "" [ref=e162] [cursor=pointer]:
+            - generic [ref=e163] [cursor=pointer]: 
+        - separator [ref=e164]
+        - generic [ref=e166]:
+          - generic [ref=e168]:
+            - generic [ref=e170]:
+              - generic [ref=e172]: Nombre de usuario
+              - textbox [ref=e174]
+            - generic [ref=e176]:
+              - generic [ref=e178]: Rol de Usuario
+              - generic [ref=e181] [cursor=pointer]:
+                - generic [ref=e182] [cursor=pointer]: "-- Select --"
+                - generic [ref=e184] [cursor=pointer]: 
+            - generic [ref=e186]:
+              - generic [ref=e188]: Nombre del Empleado
+              - textbox "Type for hints..." [ref=e192]
+            - generic [ref=e194]:
+              - generic [ref=e196]: Estatus
+              - generic [ref=e199] [cursor=pointer]:
+                - generic [ref=e200] [cursor=pointer]: "-- Select --"
+                - generic [ref=e202] [cursor=pointer]: 
+          - separator [ref=e203]
+          - generic [ref=e204]:
+            - button "Reiniciar" [ref=e205] [cursor=pointer]
+            - button "Buscar" [ref=e206] [cursor=pointer]
+      - generic [ref=e207]:
+        - button " Agregar" [ref=e209] [cursor=pointer]:
+          - generic [ref=e210] [cursor=pointer]: 
+          - text: Agregar
+        - generic [ref=e211]:
+          - separator [ref=e212]
+          - generic [ref=e214]: (22) Records Found
+        - table [ref=e216]:
+          - rowgroup [ref=e217]:
+            - row " Nombre de usuario  Rol de Usuario  Nombre del Empleado  Estatus  Acciones" [ref=e218]:
+              - columnheader "" [ref=e219]:
+                - generic [ref=e221] [cursor=pointer]:
+                  - checkbox "" [ref=e222]
+                  - generic [ref=e224] [cursor=pointer]: 
+              - columnheader "Nombre de usuario " [ref=e225]:
+                - text: Nombre de usuario
+                - generic [ref=e226]:
+                  - generic [ref=e227] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Rol de Usuario " [ref=e228]:
+                - text: Rol de Usuario
+                - generic [ref=e229]:
+                  - generic [ref=e230] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Nombre del Empleado " [ref=e231]:
+                - text: Nombre del Empleado
+                - generic [ref=e232]:
+                  - generic [ref=e233] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Estatus " [ref=e234]:
+                - text: Estatus
+                - generic [ref=e235]:
+                  - generic [ref=e236] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Acciones" [ref=e237]
+          - rowgroup [ref=e238]:
+            - row " Admin Administrador João Silva Habilitado  " [ref=e240]:
+              - cell "" [ref=e241]:
+                - generic [ref=e245]:
+                  - checkbox "" [ref=e246]
+                  - generic [ref=e248]: 
+              - cell "Admin" [ref=e249]:
+                - generic [ref=e250]: Admin
+              - cell "Administrador" [ref=e251]:
+                - generic [ref=e252]: Administrador
+              - cell "João Silva" [ref=e253]:
+                - generic [ref=e254]: João Silva
+              - cell "Habilitado" [ref=e255]:
+                - generic [ref=e256]: Habilitado
+              - cell " " [ref=e257]:
+                - generic [ref=e258]:
+                  - button "" [ref=e259] [cursor=pointer]:
+                    - generic [ref=e260] [cursor=pointer]: 
+                  - button "" [ref=e261] [cursor=pointer]:
+                    - generic [ref=e262] [cursor=pointer]: 
+            - row " AliAli Autogestión del Empleado Ali Afify Habilitado  " [ref=e264]:
+              - cell "" [ref=e265]:
+                - generic [ref=e268] [cursor=pointer]:
+                  - checkbox "" [ref=e269]
+                  - generic [ref=e271] [cursor=pointer]: 
+              - cell "AliAli" [ref=e272]:
+                - generic [ref=e273]: AliAli
+              - cell "Autogestión del Empleado" [ref=e274]:
+                - generic [ref=e275]: Autogestión del Empleado
+              - cell "Ali Afify" [ref=e276]:
+                - generic [ref=e277]: Ali Afify
+              - cell "Habilitado" [ref=e278]:
+                - generic [ref=e279]: Habilitado
+              - cell " " [ref=e280]:
+                - generic [ref=e281]:
+                  - button "" [ref=e282] [cursor=pointer]:
+                    - generic [ref=e283] [cursor=pointer]: 
+                  - button "" [ref=e284] [cursor=pointer]:
+                    - generic [ref=e285] [cursor=pointer]: 
+            - row " AliAliAli Autogestión del Empleado Ali Afify Habilitado  " [ref=e287]:
+              - cell "" [ref=e288]:
+                - generic [ref=e291] [cursor=pointer]:
+                  - checkbox "" [ref=e292]
+                  - generic [ref=e294] [cursor=pointer]: 
+              - cell "AliAliAli" [ref=e295]:
+                - generic [ref=e296]: AliAliAli
+              - cell "Autogestión del Empleado" [ref=e297]:
+                - generic [ref=e298]: Autogestión del Empleado
+              - cell "Ali Afify" [ref=e299]:
+                - generic [ref=e300]: Ali Afify
+              - cell "Habilitado" [ref=e301]:
+                - generic [ref=e302]: Habilitado
+              - cell " " [ref=e303]:
+                - generic [ref=e304]:
+                  - button "" [ref=e305] [cursor=pointer]:
+                    - generic [ref=e306] [cursor=pointer]: 
+                  - button "" [ref=e307] [cursor=pointer]:
+                    - generic [ref=e308] [cursor=pointer]: 
+            - row " Avemaria Autogestión del Empleado Ave Maria Habilitado  " [ref=e310]:
+              - cell "" [ref=e311]:
+                - generic [ref=e314] [cursor=pointer]:
+                  - checkbox "" [ref=e315]
+                  - generic [ref=e317] [cursor=pointer]: 
+              - cell "Avemaria" [ref=e318]:
+                - generic [ref=e319]: Avemaria
+              - cell "Autogestión del Empleado" [ref=e320]:
+                - generic [ref=e321]: Autogestión del Empleado
+              - cell "Ave Maria" [ref=e322]:
+                - generic [ref=e323]: Ave Maria
+              - cell "Habilitado" [ref=e324]:
+                - generic [ref=e325]: Habilitado
+              - cell " " [ref=e326]:
+                - generic [ref=e327]:
+                  - button "" [ref=e328] [cursor=pointer]:
+                    - generic [ref=e329] [cursor=pointer]: 
+                  - button "" [ref=e330] [cursor=pointer]:
+                    - generic [ref=e331] [cursor=pointer]: 
+            - row " Cemong.test1 Autogestión del Empleado Cemong Gembul Habilitado  " [ref=e333]:
+              - cell "" [ref=e334]:
+                - generic [ref=e337] [cursor=pointer]:
+                  - checkbox "" [ref=e338]
+                  - generic [ref=e340] [cursor=pointer]: 
+              - cell "Cemong.test1" [ref=e341]:
+                - generic [ref=e342]: Cemong.test1
+              - cell "Autogestión del Empleado" [ref=e343]:
+                - generic [ref=e344]: Autogestión del Empleado
+              - cell "Cemong Gembul" [ref=e345]:
+                - generic [ref=e346]: Cemong Gembul
+              - cell "Habilitado" [ref=e347]:
+                - generic [ref=e348]: Habilitado
+              - cell " " [ref=e349]:
+                - generic [ref=e350]:
+                  - button "" [ref=e351] [cursor=pointer]:
+                    - generic [ref=e352] [cursor=pointer]: 
+                  - button "" [ref=e353] [cursor=pointer]:
+                    - generic [ref=e354] [cursor=pointer]: 
+            - row " Cemong.test123 Autogestión del Empleado Cemong Gembul Habilitado  " [ref=e356]:
+              - cell "" [ref=e357]:
+                - generic [ref=e360] [cursor=pointer]:
+                  - checkbox "" [ref=e361]
+                  - generic [ref=e363] [cursor=pointer]: 
+              - cell "Cemong.test123" [ref=e364]:
+                - generic [ref=e365]: Cemong.test123
+              - cell "Autogestión del Empleado" [ref=e366]:
+                - generic [ref=e367]: Autogestión del Empleado
+              - cell "Cemong Gembul" [ref=e368]:
+                - generic [ref=e369]: Cemong Gembul
+              - cell "Habilitado" [ref=e370]:
+                - generic [ref=e371]: Habilitado
+              - cell " " [ref=e372]:
+                - generic [ref=e373]:
+                  - button "" [ref=e374] [cursor=pointer]:
+                    - generic [ref=e375] [cursor=pointer]: 
+                  - button "" [ref=e376] [cursor=pointer]:
+                    - generic [ref=e377] [cursor=pointer]: 
+            - row " FMLName1 Autogestión del Empleado FName LName Habilitado  " [ref=e379]:
+              - cell "" [ref=e380]:
+                - generic [ref=e383] [cursor=pointer]:
+                  - checkbox "" [ref=e384]
+                  - generic [ref=e386] [cursor=pointer]: 
+              - cell "FMLName1" [ref=e387]:
+                - generic [ref=e388]: FMLName1
+              - cell "Autogestión del Empleado" [ref=e389]:
+                - generic [ref=e390]: Autogestión del Empleado
+              - cell "FName LName" [ref=e391]:
+                - generic [ref=e392]: FName LName
+              - cell "Habilitado" [ref=e393]:
+                - generic [ref=e394]: Habilitado
+              - cell " " [ref=e395]:
+                - generic [ref=e396]:
+                  - button "" [ref=e397] [cursor=pointer]:
+                    - generic [ref=e398] [cursor=pointer]: 
+                  - button "" [ref=e399] [cursor=pointer]:
+                    - generic [ref=e400] [cursor=pointer]: 
+            - row " Jobinsam@6742 Autogestión del Empleado Jobin Sam Habilitado  " [ref=e402]:
+              - cell "" [ref=e403]:
+                - generic [ref=e406] [cursor=pointer]:
+                  - checkbox "" [ref=e407]
+                  - generic [ref=e409] [cursor=pointer]: 
+              - cell "Jobinsam@6742" [ref=e410]:
+                - generic [ref=e411]: Jobinsam@6742
+              - cell "Autogestión del Empleado" [ref=e412]:
+                - generic [ref=e413]: Autogestión del Empleado
+              - cell "Jobin Sam" [ref=e414]:
+                - generic [ref=e415]: Jobin Sam
+              - cell "Habilitado" [ref=e416]:
+                - generic [ref=e417]: Habilitado
+              - cell " " [ref=e418]:
+                - generic [ref=e419]:
+                  - button "" [ref=e420] [cursor=pointer]:
+                    - generic [ref=e421] [cursor=pointer]: 
+                  - button "" [ref=e422] [cursor=pointer]:
+                    - generic [ref=e423] [cursor=pointer]: 
+            - row " john.smith.auto119631 Administrador Rahul Das Habilitado  " [ref=e425]:
+              - cell "" [ref=e426]:
+                - generic [ref=e429] [cursor=pointer]:
+                  - checkbox "" [ref=e430]
+                  - generic [ref=e432] [cursor=pointer]: 
+              - cell "john.smith.auto119631" [ref=e433]:
+                - generic [ref=e434]: john.smith.auto119631
+              - cell "Administrador" [ref=e435]:
+                - generic [ref=e436]: Administrador
+              - cell "Rahul Das" [ref=e437]:
+                - generic [ref=e438]: Rahul Das
+              - cell "Habilitado" [ref=e439]:
+                - generic [ref=e440]: Habilitado
+              - cell " " [ref=e441]:
+                - generic [ref=e442]:
+                  - button "" [ref=e443] [cursor=pointer]:
+                    - generic [ref=e444] [cursor=pointer]: 
+                  - button "" [ref=e445] [cursor=pointer]:
+                    - generic [ref=e446] [cursor=pointer]: 
+            - row " john.smith.auto177284 Administrador Rahul Das Habilitado  " [ref=e448]:
+              - cell "" [ref=e449]:
+                - generic [ref=e452] [cursor=pointer]:
+                  - checkbox "" [ref=e453]
+                  - generic [ref=e455] [cursor=pointer]: 
+              - cell "john.smith.auto177284" [ref=e456]:
+                - generic [ref=e457]: john.smith.auto177284
+              - cell "Administrador" [ref=e458]:
+                - generic [ref=e459]: Administrador
+              - cell "Rahul Das" [ref=e460]:
+                - generic [ref=e461]: Rahul Das
+              - cell "Habilitado" [ref=e462]:
+                - generic [ref=e463]: Habilitado
+              - cell " " [ref=e464]:
+                - generic [ref=e465]:
+                  - button "" [ref=e466] [cursor=pointer]:
+                    - generic [ref=e467] [cursor=pointer]: 
+                  - button "" [ref=e468] [cursor=pointer]:
+                    - generic [ref=e469] [cursor=pointer]: 
+            - row " john.smith.auto187399 Administrador Rahul Das Habilitado  " [ref=e471]:
+              - cell "" [ref=e472]:
+                - generic [ref=e475] [cursor=pointer]:
+                  - checkbox "" [ref=e476]
+                  - generic [ref=e478] [cursor=pointer]: 
+              - cell "john.smith.auto187399" [ref=e479]:
+                - generic [ref=e480]: john.smith.auto187399
+              - cell "Administrador" [ref=e481]:
+                - generic [ref=e482]: Administrador
+              - cell "Rahul Das" [ref=e483]:
+                - generic [ref=e484]: Rahul Das
+              - cell "Habilitado" [ref=e485]:
+                - generic [ref=e486]: Habilitado
+              - cell " " [ref=e487]:
+                - generic [ref=e488]:
+                  - button "" [ref=e489] [cursor=pointer]:
+                    - generic [ref=e490] [cursor=pointer]: 
+                  - button "" [ref=e491] [cursor=pointer]:
+                    - generic [ref=e492] [cursor=pointer]: 
+            - row " john.smith.auto448219 Administrador Rahul Das Habilitado  " [ref=e494]:
+              - cell "" [ref=e495]:
+                - generic [ref=e498] [cursor=pointer]:
+                  - checkbox "" [ref=e499]
+                  - generic [ref=e501] [cursor=pointer]: 
+              - cell "john.smith.auto448219" [ref=e502]:
+                - generic [ref=e503]: john.smith.auto448219
+              - cell "Administrador" [ref=e504]:
+                - generic [ref=e505]: Administrador
+              - cell "Rahul Das" [ref=e506]:
+                - generic [ref=e507]: Rahul Das
+              - cell "Habilitado" [ref=e508]:
+                - generic [ref=e509]: Habilitado
+              - cell " " [ref=e510]:
+                - generic [ref=e511]:
+                  - button "" [ref=e512] [cursor=pointer]:
+                    - generic [ref=e513] [cursor=pointer]: 
+                  - button "" [ref=e514] [cursor=pointer]:
+                    - generic [ref=e515] [cursor=pointer]: 
+            - row " john.smith.auto631971 Administrador Rahul Das Habilitado  " [ref=e517]:
+              - cell "" [ref=e518]:
+                - generic [ref=e521] [cursor=pointer]:
+                  - checkbox "" [ref=e522]
+                  - generic [ref=e524] [cursor=pointer]: 
+              - cell "john.smith.auto631971" [ref=e525]:
+                - generic [ref=e526]: john.smith.auto631971
+              - cell "Administrador" [ref=e527]:
+                - generic [ref=e528]: Administrador
+              - cell "Rahul Das" [ref=e529]:
+                - generic [ref=e530]: Rahul Das
+              - cell "Habilitado" [ref=e531]:
+                - generic [ref=e532]: Habilitado
+              - cell " " [ref=e533]:
+                - generic [ref=e534]:
+                  - button "" [ref=e535] [cursor=pointer]:
+                    - generic [ref=e536] [cursor=pointer]: 
+                  - button "" [ref=e537] [cursor=pointer]:
+                    - generic [ref=e538] [cursor=pointer]: 
+            - row " john.smith.auto818763 Administrador Rahul Das Habilitado  " [ref=e540]:
+              - cell "" [ref=e541]:
+                - generic [ref=e544] [cursor=pointer]:
+                  - checkbox "" [ref=e545]
+                  - generic [ref=e547] [cursor=pointer]: 
+              - cell "john.smith.auto818763" [ref=e548]:
+                - generic [ref=e549]: john.smith.auto818763
+              - cell "Administrador" [ref=e550]:
+                - generic [ref=e551]: Administrador
+              - cell "Rahul Das" [ref=e552]:
+                - generic [ref=e553]: Rahul Das
+              - cell "Habilitado" [ref=e554]:
+                - generic [ref=e555]: Habilitado
+              - cell " " [ref=e556]:
+                - generic [ref=e557]:
+                  - button "" [ref=e558] [cursor=pointer]:
+                    - generic [ref=e559] [cursor=pointer]: 
+                  - button "" [ref=e560] [cursor=pointer]:
+                    - generic [ref=e561] [cursor=pointer]: 
+            - row " john.smith.auto823082 Administrador John Smith Habilitado  " [ref=e563]:
+              - cell "" [ref=e564]:
+                - generic [ref=e567] [cursor=pointer]:
+                  - checkbox "" [ref=e568]
+                  - generic [ref=e570] [cursor=pointer]: 
+              - cell "john.smith.auto823082" [ref=e571]:
+                - generic [ref=e572]: john.smith.auto823082
+              - cell "Administrador" [ref=e573]:
+                - generic [ref=e574]: Administrador
+              - cell "John Smith" [ref=e575]:
+                - generic [ref=e576]: John Smith
+              - cell "Habilitado" [ref=e577]:
+                - generic [ref=e578]: Habilitado
+              - cell " " [ref=e579]:
+                - generic [ref=e580]:
+                  - button "" [ref=e581] [cursor=pointer]:
+                    - generic [ref=e582] [cursor=pointer]: 
+                  - button "" [ref=e583] [cursor=pointer]:
+                    - generic [ref=e584] [cursor=pointer]: 
+            - row " john.smith.auto97044 Administrador Rahul Das Habilitado  " [ref=e586]:
+              - cell "" [ref=e587]:
+                - generic [ref=e590] [cursor=pointer]:
+                  - checkbox "" [ref=e591]
+                  - generic [ref=e593] [cursor=pointer]: 
+              - cell "john.smith.auto97044" [ref=e594]:
+                - generic [ref=e595]: john.smith.auto97044
+              - cell "Administrador" [ref=e596]:
+                - generic [ref=e597]: Administrador
+              - cell "Rahul Das" [ref=e598]:
+                - generic [ref=e599]: Rahul Das
+              - cell "Habilitado" [ref=e600]:
+                - generic [ref=e601]: Habilitado
+              - cell " " [ref=e602]:
+                - generic [ref=e603]:
+                  - button "" [ref=e604] [cursor=pointer]:
+                    - generic [ref=e605] [cursor=pointer]: 
+                  - button "" [ref=e606] [cursor=pointer]:
+                    - generic [ref=e607] [cursor=pointer]: 
+            - row " laudya_bella Administrador Laudya Bela Habilitado  " [ref=e609]:
+              - cell "" [ref=e610]:
+                - generic [ref=e613] [cursor=pointer]:
+                  - checkbox "" [ref=e614]
+                  - generic [ref=e616] [cursor=pointer]: 
+              - cell "laudya_bella" [ref=e617]:
+                - generic [ref=e618]: laudya_bella
+              - cell "Administrador" [ref=e619]:
+                - generic [ref=e620]: Administrador
+              - cell "Laudya Bela" [ref=e621]:
+                - generic [ref=e622]: Laudya Bela
+              - cell "Habilitado" [ref=e623]:
+                - generic [ref=e624]: Habilitado
+              - cell " " [ref=e625]:
+                - generic [ref=e626]:
+                  - button "" [ref=e627] [cursor=pointer]:
+                    - generic [ref=e628] [cursor=pointer]: 
+                  - button "" [ref=e629] [cursor=pointer]:
+                    - generic [ref=e630] [cursor=pointer]: 
+            - row " user10898794 Autogestión del Empleado Ali Essam Habilitado  " [ref=e632]:
+              - cell "" [ref=e633]:
+                - generic [ref=e636] [cursor=pointer]:
+                  - checkbox "" [ref=e637]
+                  - generic [ref=e639] [cursor=pointer]: 
+              - cell "user10898794" [ref=e640]:
+                - generic [ref=e641]: user10898794
+              - cell "Autogestión del Empleado" [ref=e642]:
+                - generic [ref=e643]: Autogestión del Empleado
+              - cell "Ali Essam" [ref=e644]:
+                - generic [ref=e645]: Ali Essam
+              - cell "Habilitado" [ref=e646]:
+                - generic [ref=e647]: Habilitado
+              - cell " " [ref=e648]:
+                - generic [ref=e649]:
+                  - button "" [ref=e650] [cursor=pointer]:
+                    - generic [ref=e651] [cursor=pointer]: 
+                  - button "" [ref=e652] [cursor=pointer]:
+                    - generic [ref=e653] [cursor=pointer]: 
+            - row " user1498794 Autogestión del Empleado Ali Essam Habilitado  " [ref=e655]:
+              - cell "" [ref=e656]:
+                - generic [ref=e659] [cursor=pointer]:
+                  - checkbox "" [ref=e660]
+                  - generic [ref=e662] [cursor=pointer]: 
+              - cell "user1498794" [ref=e663]:
+                - generic [ref=e664]: user1498794
+              - cell "Autogestión del Empleado" [ref=e665]:
+                - generic [ref=e666]: Autogestión del Empleado
+              - cell "Ali Essam" [ref=e667]:
+                - generic [ref=e668]: Ali Essam
+              - cell "Habilitado" [ref=e669]:
+                - generic [ref=e670]: Habilitado
+              - cell " " [ref=e671]:
+                - generic [ref=e672]:
+                  - button "" [ref=e673] [cursor=pointer]:
+                    - generic [ref=e674] [cursor=pointer]: 
+                  - button "" [ref=e675] [cursor=pointer]:
+                    - generic [ref=e676] [cursor=pointer]: 
+            - row " user4898794 Autogestión del Empleado Ali Essam Habilitado  " [ref=e678]:
+              - cell "" [ref=e679]:
+                - generic [ref=e682] [cursor=pointer]:
+                  - checkbox "" [ref=e683]
+                  - generic [ref=e685] [cursor=pointer]: 
+              - cell "user4898794" [ref=e686]:
+                - generic [ref=e687]: user4898794
+              - cell "Autogestión del Empleado" [ref=e688]:
+                - generic [ref=e689]: Autogestión del Empleado
+              - cell "Ali Essam" [ref=e690]:
+                - generic [ref=e691]: Ali Essam
+              - cell "Habilitado" [ref=e692]:
+                - generic [ref=e693]: Habilitado
+              - cell " " [ref=e694]:
+                - generic [ref=e695]:
+                  - button "" [ref=e696] [cursor=pointer]:
+                    - generic [ref=e697] [cursor=pointer]: 
+                  - button "" [ref=e698] [cursor=pointer]:
+                    - generic [ref=e699] [cursor=pointer]: 
+            - row " user489894 Autogestión del Empleado Nalim R P Habilitado  " [ref=e701]:
+              - cell "" [ref=e702]:
+                - generic [ref=e705] [cursor=pointer]:
+                  - checkbox "" [ref=e706]
+                  - generic [ref=e708] [cursor=pointer]: 
+              - cell "user489894" [ref=e709]:
+                - generic [ref=e710]: user489894
+              - cell "Autogestión del Empleado" [ref=e711]:
+                - generic [ref=e712]: Autogestión del Empleado
+              - cell "Nalim R P" [ref=e713]:
+                - generic [ref=e714]: Nalim R P
+              - cell "Habilitado" [ref=e715]:
+                - generic [ref=e716]: Habilitado
+              - cell " " [ref=e717]:
+                - generic [ref=e718]:
+                  - button "" [ref=e719] [cursor=pointer]:
+                    - generic [ref=e720] [cursor=pointer]: 
+                  - button "" [ref=e721] [cursor=pointer]:
+                    - generic [ref=e722] [cursor=pointer]: 
+            - row " yyyyyyy2 Autogestión del Empleado AAAAAAAAAAAAAAAA B Habilitado  " [ref=e724]:
+              - cell "" [ref=e725]:
+                - generic [ref=e728] [cursor=pointer]:
+                  - checkbox "" [ref=e729]
+                  - generic [ref=e731] [cursor=pointer]: 
+              - cell "yyyyyyy2" [ref=e732]:
+                - generic [ref=e733]: yyyyyyy2
+              - cell "Autogestión del Empleado" [ref=e734]:
+                - generic [ref=e735]: Autogestión del Empleado
+              - cell "AAAAAAAAAAAAAAAA B" [ref=e736]:
+                - generic [ref=e737]: AAAAAAAAAAAAAAAA B
+              - cell "Habilitado" [ref=e738]:
+                - generic [ref=e739]: Habilitado
+              - cell " " [ref=e740]:
+                - generic [ref=e741]:
+                  - button "" [ref=e742] [cursor=pointer]:
+                    - generic [ref=e743] [cursor=pointer]: 
+                  - button "" [ref=e744] [cursor=pointer]:
+                    - generic [ref=e745] [cursor=pointer]: 
+    - generic [ref=e747]:
+      - paragraph [ref=e748]: OrangeHRM OS 5.7
+      - paragraph [ref=e749]:
+        - text: © 2005 - 2025
+        - link "OrangeHRM, Inc" [ref=e750] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```
