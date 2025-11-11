@@ -1,0 +1,256 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic:
+      - complementary [ref=e4]:
+        - navigation "Sidepanel" [ref=e5]:
+          - generic [ref=e6]:
+            - link "client brand banner" [ref=e7] [cursor=pointer]:
+              - /url: https://www.orangehrm.com/
+              - img "client brand banner" [ref=e9] [cursor=pointer]
+            - text: 
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - generic [ref=e12]:
+                - textbox "Search" [ref=e15]
+                - button "" [ref=e16] [cursor=pointer]:
+                  - generic [ref=e17] [cursor=pointer]: 
+              - separator [ref=e18]
+            - list [ref=e19]:
+              - listitem [ref=e20]:
+                - link "Admin" [ref=e21] [cursor=pointer]:
+                  - /url: /web/index.php/admin/viewAdminModule
+                  - generic [ref=e24] [cursor=pointer]: Admin
+              - listitem [ref=e25]:
+                - link "PIM" [ref=e26] [cursor=pointer]:
+                  - /url: /web/index.php/pim/viewPimModule
+                  - generic [ref=e40] [cursor=pointer]: PIM
+              - listitem [ref=e41]:
+                - link "Leave" [ref=e42] [cursor=pointer]:
+                  - /url: /web/index.php/leave/viewLeaveModule
+                  - generic [ref=e45] [cursor=pointer]: Leave
+              - listitem [ref=e46]:
+                - link "Time" [ref=e47] [cursor=pointer]:
+                  - /url: /web/index.php/time/viewTimeModule
+                  - generic [ref=e53] [cursor=pointer]: Time
+              - listitem [ref=e54]:
+                - link "Recruitment" [ref=e55] [cursor=pointer]:
+                  - /url: /web/index.php/recruitment/viewRecruitmentModule
+                  - generic [ref=e61] [cursor=pointer]: Recruitment
+              - listitem [ref=e62]:
+                - link "My Info" [ref=e63] [cursor=pointer]:
+                  - /url: /web/index.php/pim/viewMyDetails
+                  - generic [ref=e69] [cursor=pointer]: My Info
+              - listitem [ref=e70]:
+                - link "Performance" [ref=e71] [cursor=pointer]:
+                  - /url: /web/index.php/performance/viewPerformanceModule
+                  - generic [ref=e79] [cursor=pointer]: Performance
+              - listitem [ref=e80]:
+                - link "Dashboard" [ref=e81] [cursor=pointer]:
+                  - /url: /web/index.php/dashboard/index
+                  - generic [ref=e84] [cursor=pointer]: Dashboard
+              - listitem [ref=e85]:
+                - link "Directory" [ref=e86] [cursor=pointer]:
+                  - /url: /web/index.php/directory/viewDirectory
+                  - generic [ref=e89] [cursor=pointer]: Directory
+              - listitem [ref=e90]:
+                - link "Maintenance" [ref=e91] [cursor=pointer]:
+                  - /url: /web/index.php/maintenance/viewMaintenanceModule
+                  - generic [ref=e95] [cursor=pointer]: Maintenance
+              - listitem [ref=e96]:
+                - link "Claim" [ref=e97] [cursor=pointer]:
+                  - /url: /web/index.php/claim/viewClaimModule
+                  - img [ref=e100] [cursor=pointer]
+                  - generic [ref=e104] [cursor=pointer]: Claim
+              - listitem [ref=e105]:
+                - link "Buzz" [ref=e106] [cursor=pointer]:
+                  - /url: /web/index.php/buzz/viewBuzz
+                  - generic [ref=e109] [cursor=pointer]: Buzz
+      - banner [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - text: 
+            - heading "Leave" [level=6] [ref=e114]
+          - link "Upgrade" [ref=e116]:
+            - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+            - button "Upgrade" [ref=e117] [cursor=pointer]: Upgrade
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - generic [ref=e125] [cursor=pointer]:
+                - img "profile picture" [ref=e126] [cursor=pointer]
+                - paragraph [ref=e127] [cursor=pointer]: manda user
+                - generic [ref=e128] [cursor=pointer]: 
+        - navigation "Topbar Menu" [ref=e130]:
+          - list [ref=e131]:
+            - listitem [ref=e132] [cursor=pointer]:
+              - link "Apply" [ref=e133] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e134] [cursor=pointer]:
+              - link "My Leave" [ref=e135] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e136] [cursor=pointer]:
+              - generic [ref=e137] [cursor=pointer]:
+                - text: Entitlements
+                - generic [ref=e138] [cursor=pointer]: 
+            - listitem [ref=e139] [cursor=pointer]:
+              - generic [ref=e140] [cursor=pointer]:
+                - text: Reports
+                - generic [ref=e141] [cursor=pointer]: 
+            - listitem [ref=e142] [cursor=pointer]:
+              - generic [ref=e143] [cursor=pointer]:
+                - text: Configure
+                - generic [ref=e144] [cursor=pointer]: 
+            - listitem [ref=e145] [cursor=pointer]:
+              - link "Leave List" [ref=e146] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e147] [cursor=pointer]:
+              - link "Assign Leave" [ref=e148] [cursor=pointer]:
+                - /url: "#"
+            - button "" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151] [cursor=pointer]: 
+    - generic [ref=e152]:
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - heading "Leave List" [level=5] [ref=e158]
+            - button "" [ref=e161] [cursor=pointer]:
+              - generic [ref=e162] [cursor=pointer]: 
+          - separator [ref=e163]
+          - generic [ref=e165]:
+            - generic [ref=e167]:
+              - generic [ref=e169]:
+                - generic [ref=e171]: From Date
+                - generic [ref=e174]:
+                  - textbox "yyyy-dd-mm" [ref=e175]: 2026-15-05
+                  - generic [ref=e176] [cursor=pointer]: 
+              - generic [ref=e178]:
+                - generic [ref=e180]: To Date
+                - generic [ref=e182]:
+                  - generic [ref=e183]:
+                    - textbox "yyyy-dd-mm" [active] [ref=e184]: 2025-31-12
+                    - generic [ref=e185] [cursor=pointer]: 
+                  - generic [ref=e187]:
+                    - generic [ref=e188]:
+                      - button "" [ref=e189] [cursor=pointer]:
+                        - generic [ref=e190] [cursor=pointer]: 
+                      - list [ref=e191]:
+                        - listitem [ref=e192] [cursor=pointer]:
+                          - generic [ref=e193] [cursor=pointer]:
+                            - paragraph [ref=e194] [cursor=pointer]: December
+                            - generic [ref=e195] [cursor=pointer]: 
+                        - listitem [ref=e196] [cursor=pointer]:
+                          - generic [ref=e197] [cursor=pointer]:
+                            - paragraph [ref=e198] [cursor=pointer]: "2025"
+                            - generic [ref=e199] [cursor=pointer]: 
+                      - button "" [ref=e200] [cursor=pointer]:
+                        - generic [ref=e201] [cursor=pointer]: 
+                    - generic [ref=e202]:
+                      - generic [ref=e203]: S
+                      - generic [ref=e204]: M
+                      - generic [ref=e205]: T
+                      - generic [ref=e206]: W
+                      - generic [ref=e207]: T
+                      - generic [ref=e208]: F
+                      - generic [ref=e209]: S
+                    - generic [ref=e210]:
+                      - generic [ref=e212] [cursor=pointer]: "1"
+                      - generic [ref=e214] [cursor=pointer]: "2"
+                      - generic [ref=e216] [cursor=pointer]: "3"
+                      - generic [ref=e218] [cursor=pointer]: "4"
+                      - generic [ref=e220] [cursor=pointer]: "5"
+                      - generic [ref=e222] [cursor=pointer]: "6"
+                      - generic [ref=e224] [cursor=pointer]: "7"
+                      - generic [ref=e226] [cursor=pointer]: "8"
+                      - generic [ref=e228] [cursor=pointer]: "9"
+                      - generic [ref=e230] [cursor=pointer]: "10"
+                      - generic [ref=e232] [cursor=pointer]: "11"
+                      - generic [ref=e234] [cursor=pointer]: "12"
+                      - generic [ref=e236] [cursor=pointer]: "13"
+                      - generic [ref=e238] [cursor=pointer]: "14"
+                      - generic [ref=e240] [cursor=pointer]: "15"
+                      - generic [ref=e242] [cursor=pointer]: "16"
+                      - generic [ref=e244] [cursor=pointer]: "17"
+                      - generic [ref=e246] [cursor=pointer]: "18"
+                      - generic [ref=e248] [cursor=pointer]: "19"
+                      - generic [ref=e250] [cursor=pointer]: "20"
+                      - generic [ref=e252] [cursor=pointer]: "21"
+                      - generic [ref=e254] [cursor=pointer]: "22"
+                      - generic [ref=e256] [cursor=pointer]: "23"
+                      - generic [ref=e258] [cursor=pointer]: "24"
+                      - generic [ref=e260] [cursor=pointer]: "25"
+                      - generic [ref=e262] [cursor=pointer]: "26"
+                      - generic [ref=e264] [cursor=pointer]: "27"
+                      - generic [ref=e266] [cursor=pointer]: "28"
+                      - generic [ref=e268] [cursor=pointer]: "29"
+                      - generic [ref=e270] [cursor=pointer]: "30"
+                      - generic [ref=e272] [cursor=pointer]: "31"
+                    - generic [ref=e274]:
+                      - generic [ref=e275] [cursor=pointer]: Today
+                      - generic [ref=e276] [cursor=pointer]: Clear
+                      - generic [ref=e277] [cursor=pointer]: Close
+              - generic [ref=e279]:
+                - generic [ref=e281]: Show Leave with Status*
+                - generic [ref=e283]:
+                  - generic [ref=e284] [cursor=pointer]:
+                    - generic [ref=e285] [cursor=pointer]: "-- Select --"
+                    - generic [ref=e287] [cursor=pointer]: 
+                  - generic [ref=e289]:
+                    - text: Pending Approval
+                    - generic [ref=e290] [cursor=pointer]: 
+              - generic [ref=e292]:
+                - generic [ref=e294]: Leave Type
+                - generic [ref=e297] [cursor=pointer]:
+                  - generic [ref=e298] [cursor=pointer]: "-- Select --"
+                  - generic [ref=e300] [cursor=pointer]: 
+            - generic [ref=e302]:
+              - generic [ref=e304]:
+                - generic [ref=e306]: Employee Name
+                - textbox "Type for hints..." [ref=e310]
+              - generic [ref=e312]:
+                - generic [ref=e314]: Sub Unit
+                - generic [ref=e317] [cursor=pointer]:
+                  - generic [ref=e318] [cursor=pointer]: "-- Select --"
+                  - generic [ref=e320] [cursor=pointer]: 
+              - generic [ref=e321]:
+                - paragraph [ref=e322]: Include Past Employees
+                - checkbox [ref=e325]
+            - separator [ref=e327]
+            - generic [ref=e328]:
+              - paragraph [ref=e329]: "* Required"
+              - button "Reset" [ref=e330] [cursor=pointer]
+              - button "Search" [ref=e331] [cursor=pointer]
+        - generic [ref=e332]:
+          - generic [ref=e334]: No Records Found
+          - table [ref=e336]:
+            - rowgroup [ref=e337]:
+              - row " Date Employee Name Leave Type Leave Balance (Days) Number of Days Status Comments Actions" [ref=e338]:
+                - columnheader "" [ref=e339]:
+                  - generic [ref=e341] [cursor=pointer]:
+                    - checkbox "" [ref=e342]
+                    - generic [ref=e344] [cursor=pointer]: 
+                - columnheader "Date" [ref=e345]
+                - columnheader "Employee Name" [ref=e346]
+                - columnheader "Leave Type" [ref=e347]
+                - columnheader "Leave Balance (Days)" [ref=e348]
+                - columnheader "Number of Days" [ref=e349]
+                - columnheader "Status" [ref=e350]
+                - columnheader "Comments" [ref=e351]
+                - columnheader "Actions" [ref=e352]
+            - rowgroup
+      - generic [ref=e354]:
+        - paragraph [ref=e355]: OrangeHRM OS 5.7
+        - paragraph [ref=e356]:
+          - text: © 2005 - 2025
+          - link "OrangeHRM, Inc" [ref=e357] [cursor=pointer]:
+            - /url: http://www.orangehrm.com
+          - text: . All rights reserved.
+  - generic [ref=e359] [cursor=pointer]:
+    - generic [ref=e360] [cursor=pointer]:
+      - generic [ref=e363] [cursor=pointer]: 
+      - generic [ref=e364] [cursor=pointer]:
+        - paragraph [ref=e365] [cursor=pointer]: Info
+        - paragraph [ref=e366] [cursor=pointer]: No Records Found
+    - button "×" [ref=e368] [cursor=pointer]
+```

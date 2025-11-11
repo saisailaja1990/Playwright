@@ -1,0 +1,5 @@
+Login to OrangeHRM application
+Login successful
+User is in Directory page & validation successful
+Logout from OrangeHRM application
+Logout successful
