@@ -13,3 +13,11 @@ in  reporter: [
      ['html', { outputFolder: 'playwright-report', open: 'never' }],
    // ['allure-playwright', { outputFolder: 'allure-results' }],
     ['allure-playwright', { outputFolder: 'allure-results' }],]
+
+
+    cd path/to/your/playwright-project
+git status
+git add tests/login.spec.js
+git commit -m "Added login flow test using Playwright"
+git push origin main
+
