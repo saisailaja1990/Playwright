@@ -1,0 +1,559 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9] [cursor=pointer]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17] [cursor=pointer]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24] [cursor=pointer]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40] [cursor=pointer]: PIM
+            - listitem [ref=e41]:
+              - link "Leave" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45] [cursor=pointer]: Leave
+            - listitem [ref=e46]:
+              - link "Time" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53] [cursor=pointer]: Time
+            - listitem [ref=e54]:
+              - link "Recruitment" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61] [cursor=pointer]: Recruitment
+            - listitem [ref=e62]:
+              - link "My Info" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69] [cursor=pointer]: My Info
+            - listitem [ref=e70]:
+              - link "Performance" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79] [cursor=pointer]: Performance
+            - listitem [ref=e80]:
+              - link "Dashboard" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84] [cursor=pointer]: Dashboard
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89] [cursor=pointer]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95] [cursor=pointer]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100] [cursor=pointer]
+                - generic [ref=e104] [cursor=pointer]: Claim
+            - listitem [ref=e105]:
+              - link "Buzz" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109] [cursor=pointer]: Buzz
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - generic [ref=e113]:
+            - heading "Admin" [level=6] [ref=e114]
+            - heading "/ User Management" [level=6] [ref=e115]
+        - link "Upgrade" [ref=e117]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e118] [cursor=pointer]: Upgrade
+        - list [ref=e124]:
+          - listitem [ref=e125]:
+            - generic [ref=e126] [cursor=pointer]:
+              - img "profile picture" [ref=e127] [cursor=pointer]
+              - paragraph [ref=e128] [cursor=pointer]: Ahmed Elian
+              - generic [ref=e129] [cursor=pointer]: 
+            - menu [ref=e130]:
+              - listitem [ref=e131]:
+                - menuitem "About" [ref=e132] [cursor=pointer]
+              - listitem [ref=e133]:
+                - menuitem "Support" [ref=e134] [cursor=pointer]
+              - listitem [ref=e135]:
+                - menuitem "Change Password" [ref=e136] [cursor=pointer]
+              - listitem [ref=e137]:
+                - menuitem "Logout" [ref=e138] [cursor=pointer]
+      - navigation "Topbar Menu" [ref=e140]:
+        - list [ref=e141]:
+          - listitem [ref=e142] [cursor=pointer]:
+            - generic [ref=e143] [cursor=pointer]:
+              - text: User Management
+              - generic [ref=e144] [cursor=pointer]: 
+          - listitem [ref=e145] [cursor=pointer]:
+            - generic [ref=e146] [cursor=pointer]:
+              - text: Job
+              - generic [ref=e147] [cursor=pointer]: 
+          - listitem [ref=e148] [cursor=pointer]:
+            - generic [ref=e149] [cursor=pointer]:
+              - text: Organization
+              - generic [ref=e150] [cursor=pointer]: 
+          - listitem [ref=e151] [cursor=pointer]:
+            - generic [ref=e152] [cursor=pointer]:
+              - text: Qualifications
+              - generic [ref=e153] [cursor=pointer]: 
+          - listitem [ref=e154] [cursor=pointer]:
+            - link "Nationalities" [ref=e155] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e156] [cursor=pointer]:
+            - link "Corporate Branding" [ref=e157] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e158] [cursor=pointer]:
+            - generic [ref=e159] [cursor=pointer]:
+              - text: Configuration
+              - generic [ref=e160] [cursor=pointer]: 
+          - button "" [ref=e162] [cursor=pointer]:
+            - generic [ref=e163] [cursor=pointer]: 
+  - generic [ref=e164]:
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - heading "System Users" [level=5] [ref=e170]
+          - button "" [ref=e173] [cursor=pointer]:
+            - generic [ref=e174] [cursor=pointer]: 
+        - separator [ref=e175]
+        - generic [ref=e177]:
+          - generic [ref=e179]:
+            - generic [ref=e181]:
+              - generic [ref=e183]: Username
+              - textbox [ref=e185]
+            - generic [ref=e187]:
+              - generic [ref=e189]: User Role
+              - generic [ref=e192] [cursor=pointer]:
+                - generic [ref=e193] [cursor=pointer]: "-- Select --"
+                - generic [ref=e195] [cursor=pointer]: 
+            - generic [ref=e197]:
+              - generic [ref=e199]: Employee Name
+              - textbox "Type for hints..." [ref=e203]
+            - generic [ref=e205]:
+              - generic [ref=e207]: Status
+              - generic [ref=e210] [cursor=pointer]:
+                - generic [ref=e211] [cursor=pointer]: "-- Select --"
+                - generic [ref=e213] [cursor=pointer]: 
+          - separator [ref=e214]
+          - generic [ref=e215]:
+            - button "Reset" [ref=e216] [cursor=pointer]
+            - button "Search" [ref=e217] [cursor=pointer]
+      - generic [ref=e218]:
+        - button " Add" [ref=e220] [cursor=pointer]:
+          - generic [ref=e221] [cursor=pointer]: 
+          - text: Add
+        - generic [ref=e222]:
+          - separator [ref=e223]
+          - generic [ref=e225]: (19) Records Found
+        - table [ref=e227]:
+          - rowgroup [ref=e228]:
+            - row " Username  User Role  Employee Name  Status  Actions" [ref=e229]:
+              - columnheader "" [ref=e230]:
+                - generic [ref=e232] [cursor=pointer]:
+                  - checkbox "" [ref=e233]
+                  - generic [ref=e235] [cursor=pointer]: 
+              - columnheader "Username " [ref=e236]:
+                - text: Username
+                - generic [ref=e237]:
+                  - generic [ref=e238] [cursor=pointer]: 
+                  - text:  
+              - columnheader "User Role " [ref=e239]:
+                - text: User Role
+                - generic [ref=e240]:
+                  - generic [ref=e241] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Employee Name " [ref=e242]:
+                - text: Employee Name
+                - generic [ref=e243]:
+                  - generic [ref=e244] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Status " [ref=e245]:
+                - text: Status
+                - generic [ref=e246]:
+                  - generic [ref=e247] [cursor=pointer]: 
+                  - text:  
+              - columnheader "Actions" [ref=e248]
+          - rowgroup [ref=e249]:
+            - row " 361391888633835 Admin Ahmed Elian Enabled  " [ref=e251]:
+              - cell "" [ref=e252]:
+                - generic [ref=e255] [cursor=pointer]:
+                  - checkbox "" [ref=e256]
+                  - generic [ref=e258] [cursor=pointer]: 
+              - cell "361391888633835" [ref=e259]:
+                - generic [ref=e260]: "361391888633835"
+              - cell "Admin" [ref=e261]:
+                - generic [ref=e262]: Admin
+              - cell "Ahmed Elian" [ref=e263]:
+                - generic [ref=e264]: Ahmed Elian
+              - cell "Enabled" [ref=e265]:
+                - generic [ref=e266]: Enabled
+              - cell " " [ref=e267]:
+                - generic [ref=e268]:
+                  - button "" [ref=e269] [cursor=pointer]:
+                    - generic [ref=e270] [cursor=pointer]: 
+                  - button "" [ref=e271] [cursor=pointer]:
+                    - generic [ref=e272] [cursor=pointer]: 
+            - row " Admin Admin Ahmed Elian Enabled  " [ref=e274]:
+              - cell "" [ref=e275]:
+                - generic [ref=e279]:
+                  - checkbox "" [ref=e280]
+                  - generic [ref=e282]: 
+              - cell "Admin" [ref=e283]:
+                - generic [ref=e284]: Admin
+              - cell "Admin" [ref=e285]:
+                - generic [ref=e286]: Admin
+              - cell "Ahmed Elian" [ref=e287]:
+                - generic [ref=e288]: Ahmed Elian
+              - cell "Enabled" [ref=e289]:
+                - generic [ref=e290]: Enabled
+              - cell " " [ref=e291]:
+                - generic [ref=e292]:
+                  - button "" [ref=e293] [cursor=pointer]:
+                    - generic [ref=e294] [cursor=pointer]: 
+                  - button "" [ref=e295] [cursor=pointer]:
+                    - generic [ref=e296] [cursor=pointer]: 
+            - row " DokiDoka ESS Test-user LastName Enabled  " [ref=e298]:
+              - cell "" [ref=e299]:
+                - generic [ref=e302] [cursor=pointer]:
+                  - checkbox "" [ref=e303]
+                  - generic [ref=e305] [cursor=pointer]: 
+              - cell "DokiDoka" [ref=e306]:
+                - generic [ref=e307]: DokiDoka
+              - cell "ESS" [ref=e308]:
+                - generic [ref=e309]: ESS
+              - cell "Test-user LastName" [ref=e310]:
+                - generic [ref=e311]: Test-user LastName
+              - cell "Enabled" [ref=e312]:
+                - generic [ref=e313]: Enabled
+              - cell " " [ref=e314]:
+                - generic [ref=e315]:
+                  - button "" [ref=e316] [cursor=pointer]:
+                    - generic [ref=e317] [cursor=pointer]: 
+                  - button "" [ref=e318] [cursor=pointer]:
+                    - generic [ref=e319] [cursor=pointer]: 
+            - row " iammnewuser Admin Ahmed Elian Enabled  " [ref=e321]:
+              - cell "" [ref=e322]:
+                - generic [ref=e325] [cursor=pointer]:
+                  - checkbox "" [ref=e326]
+                  - generic [ref=e328] [cursor=pointer]: 
+              - cell "iammnewuser" [ref=e329]:
+                - generic [ref=e330]: iammnewuser
+              - cell "Admin" [ref=e331]:
+                - generic [ref=e332]: Admin
+              - cell "Ahmed Elian" [ref=e333]:
+                - generic [ref=e334]: Ahmed Elian
+              - cell "Enabled" [ref=e335]:
+                - generic [ref=e336]: Enabled
+              - cell " " [ref=e337]:
+                - generic [ref=e338]:
+                  - button "" [ref=e339] [cursor=pointer]:
+                    - generic [ref=e340] [cursor=pointer]: 
+                  - button "" [ref=e341] [cursor=pointer]:
+                    - generic [ref=e342] [cursor=pointer]: 
+            - row " IAMnewUSERforTEST1 Admin Ahmed Elian Enabled  " [ref=e344]:
+              - cell "" [ref=e345]:
+                - generic [ref=e348] [cursor=pointer]:
+                  - checkbox "" [ref=e349]
+                  - generic [ref=e351] [cursor=pointer]: 
+              - cell "IAMnewUSERforTEST1" [ref=e352]:
+                - generic [ref=e353]: IAMnewUSERforTEST1
+              - cell "Admin" [ref=e354]:
+                - generic [ref=e355]: Admin
+              - cell "Ahmed Elian" [ref=e356]:
+                - generic [ref=e357]: Ahmed Elian
+              - cell "Enabled" [ref=e358]:
+                - generic [ref=e359]: Enabled
+              - cell " " [ref=e360]:
+                - generic [ref=e361]:
+                  - button "" [ref=e362] [cursor=pointer]:
+                    - generic [ref=e363] [cursor=pointer]: 
+                  - button "" [ref=e364] [cursor=pointer]:
+                    - generic [ref=e365] [cursor=pointer]: 
+            - row " IAMnewUSERforTEST2 ESS Ahmed Elian Enabled  " [ref=e367]:
+              - cell "" [ref=e368]:
+                - generic [ref=e371] [cursor=pointer]:
+                  - checkbox "" [ref=e372]
+                  - generic [ref=e374] [cursor=pointer]: 
+              - cell "IAMnewUSERforTEST2" [ref=e375]:
+                - generic [ref=e376]: IAMnewUSERforTEST2
+              - cell "ESS" [ref=e377]:
+                - generic [ref=e378]: ESS
+              - cell "Ahmed Elian" [ref=e379]:
+                - generic [ref=e380]: Ahmed Elian
+              - cell "Enabled" [ref=e381]:
+                - generic [ref=e382]: Enabled
+              - cell " " [ref=e383]:
+                - generic [ref=e384]:
+                  - button "" [ref=e385] [cursor=pointer]:
+                    - generic [ref=e386] [cursor=pointer]: 
+                  - button "" [ref=e387] [cursor=pointer]:
+                    - generic [ref=e388] [cursor=pointer]: 
+            - row " IAMnewUSERforTEST22 Admin Ahmed Elian Enabled  " [ref=e390]:
+              - cell "" [ref=e391]:
+                - generic [ref=e394] [cursor=pointer]:
+                  - checkbox "" [ref=e395]
+                  - generic [ref=e397] [cursor=pointer]: 
+              - cell "IAMnewUSERforTEST22" [ref=e398]:
+                - generic [ref=e399]: IAMnewUSERforTEST22
+              - cell "Admin" [ref=e400]:
+                - generic [ref=e401]: Admin
+              - cell "Ahmed Elian" [ref=e402]:
+                - generic [ref=e403]: Ahmed Elian
+              - cell "Enabled" [ref=e404]:
+                - generic [ref=e405]: Enabled
+              - cell " " [ref=e406]:
+                - generic [ref=e407]:
+                  - button "" [ref=e408] [cursor=pointer]:
+                    - generic [ref=e409] [cursor=pointer]: 
+                  - button "" [ref=e410] [cursor=pointer]:
+                    - generic [ref=e411] [cursor=pointer]: 
+            - row " IAMnewUSERforTEST5 Admin Ahmed Elian Enabled  " [ref=e413]:
+              - cell "" [ref=e414]:
+                - generic [ref=e417] [cursor=pointer]:
+                  - checkbox "" [ref=e418]
+                  - generic [ref=e420] [cursor=pointer]: 
+              - cell "IAMnewUSERforTEST5" [ref=e421]:
+                - generic [ref=e422]: IAMnewUSERforTEST5
+              - cell "Admin" [ref=e423]:
+                - generic [ref=e424]: Admin
+              - cell "Ahmed Elian" [ref=e425]:
+                - generic [ref=e426]: Ahmed Elian
+              - cell "Enabled" [ref=e427]:
+                - generic [ref=e428]: Enabled
+              - cell " " [ref=e429]:
+                - generic [ref=e430]:
+                  - button "" [ref=e431] [cursor=pointer]:
+                    - generic [ref=e432] [cursor=pointer]: 
+                  - button "" [ref=e433] [cursor=pointer]:
+                    - generic [ref=e434] [cursor=pointer]: 
+            - row " IAMnewUSERforTEST7 ESS Ahmed Elian Disabled  " [ref=e436]:
+              - cell "" [ref=e437]:
+                - generic [ref=e440] [cursor=pointer]:
+                  - checkbox "" [ref=e441]
+                  - generic [ref=e443] [cursor=pointer]: 
+              - cell "IAMnewUSERforTEST7" [ref=e444]:
+                - generic [ref=e445]: IAMnewUSERforTEST7
+              - cell "ESS" [ref=e446]:
+                - generic [ref=e447]: ESS
+              - cell "Ahmed Elian" [ref=e448]:
+                - generic [ref=e449]: Ahmed Elian
+              - cell "Disabled" [ref=e450]:
+                - generic [ref=e451]: Disabled
+              - cell " " [ref=e452]:
+                - generic [ref=e453]:
+                  - button "" [ref=e454] [cursor=pointer]:
+                    - generic [ref=e455] [cursor=pointer]: 
+                  - button "" [ref=e456] [cursor=pointer]:
+                    - generic [ref=e457] [cursor=pointer]: 
+            - row " NewAdminIsHere Admin Ahmed Elian Enabled  " [ref=e459]:
+              - cell "" [ref=e460]:
+                - generic [ref=e463] [cursor=pointer]:
+                  - checkbox "" [ref=e464]
+                  - generic [ref=e466] [cursor=pointer]: 
+              - cell "NewAdminIsHere" [ref=e467]:
+                - generic [ref=e468]: NewAdminIsHere
+              - cell "Admin" [ref=e469]:
+                - generic [ref=e470]: Admin
+              - cell "Ahmed Elian" [ref=e471]:
+                - generic [ref=e472]: Ahmed Elian
+              - cell "Enabled" [ref=e473]:
+                - generic [ref=e474]: Enabled
+              - cell " " [ref=e475]:
+                - generic [ref=e476]:
+                  - button "" [ref=e477] [cursor=pointer]:
+                    - generic [ref=e478] [cursor=pointer]: 
+                  - button "" [ref=e479] [cursor=pointer]:
+                    - generic [ref=e480] [cursor=pointer]: 
+            - row " RayTestasds ESS Ranga Akunuri Enabled  " [ref=e482]:
+              - cell "" [ref=e483]:
+                - generic [ref=e486] [cursor=pointer]:
+                  - checkbox "" [ref=e487]
+                  - generic [ref=e489] [cursor=pointer]: 
+              - cell "RayTestasds" [ref=e490]:
+                - generic [ref=e491]: RayTestasds
+              - cell "ESS" [ref=e492]:
+                - generic [ref=e493]: ESS
+              - cell "Ranga Akunuri" [ref=e494]:
+                - generic [ref=e495]: Ranga Akunuri
+              - cell "Enabled" [ref=e496]:
+                - generic [ref=e497]: Enabled
+              - cell " " [ref=e498]:
+                - generic [ref=e499]:
+                  - button "" [ref=e500] [cursor=pointer]:
+                    - generic [ref=e501] [cursor=pointer]: 
+                  - button "" [ref=e502] [cursor=pointer]:
+                    - generic [ref=e503] [cursor=pointer]: 
+            - row " regtrtrtrhth Admin Timothy Amiano Disabled  " [ref=e505]:
+              - cell "" [ref=e506]:
+                - generic [ref=e509] [cursor=pointer]:
+                  - checkbox "" [ref=e510]
+                  - generic [ref=e512] [cursor=pointer]: 
+              - cell "regtrtrtrhth" [ref=e513]:
+                - generic [ref=e514]: regtrtrtrhth
+              - cell "Admin" [ref=e515]:
+                - generic [ref=e516]: Admin
+              - cell "Timothy Amiano" [ref=e517]:
+                - generic [ref=e518]: Timothy Amiano
+              - cell "Disabled" [ref=e519]:
+                - generic [ref=e520]: Disabled
+              - cell " " [ref=e521]:
+                - generic [ref=e522]:
+                  - button "" [ref=e523] [cursor=pointer]:
+                    - generic [ref=e524] [cursor=pointer]: 
+                  - button "" [ref=e525] [cursor=pointer]:
+                    - generic [ref=e526] [cursor=pointer]: 
+            - row " Test12345 ESS A8DCo 010Z Enabled  " [ref=e528]:
+              - cell "" [ref=e529]:
+                - generic [ref=e532] [cursor=pointer]:
+                  - checkbox "" [ref=e533]
+                  - generic [ref=e535] [cursor=pointer]: 
+              - cell "Test12345" [ref=e536]:
+                - generic [ref=e537]: Test12345
+              - cell "ESS" [ref=e538]:
+                - generic [ref=e539]: ESS
+              - cell "A8DCo 010Z" [ref=e540]:
+                - generic [ref=e541]: A8DCo 010Z
+              - cell "Enabled" [ref=e542]:
+                - generic [ref=e543]: Enabled
+              - cell " " [ref=e544]:
+                - generic [ref=e545]:
+                  - button "" [ref=e546] [cursor=pointer]:
+                    - generic [ref=e547] [cursor=pointer]: 
+                  - button "" [ref=e548] [cursor=pointer]:
+                    - generic [ref=e549] [cursor=pointer]: 
+            - row " testData4! ESS Employee1 Dua Enabled  " [ref=e551]:
+              - cell "" [ref=e552]:
+                - generic [ref=e555] [cursor=pointer]:
+                  - checkbox "" [ref=e556]
+                  - generic [ref=e558] [cursor=pointer]: 
+              - cell "testData4!" [ref=e559]:
+                - generic [ref=e560]: testData4!
+              - cell "ESS" [ref=e561]:
+                - generic [ref=e562]: ESS
+              - cell "Employee1 Dua" [ref=e563]:
+                - generic [ref=e564]: Employee1 Dua
+              - cell "Enabled" [ref=e565]:
+                - generic [ref=e566]: Enabled
+              - cell " " [ref=e567]:
+                - generic [ref=e568]:
+                  - button "" [ref=e569] [cursor=pointer]:
+                    - generic [ref=e570] [cursor=pointer]: 
+                  - button "" [ref=e571] [cursor=pointer]:
+                    - generic [ref=e572] [cursor=pointer]: 
+            - row " testData5! ESS Employee2 Dua Enabled  " [ref=e574]:
+              - cell "" [ref=e575]:
+                - generic [ref=e578] [cursor=pointer]:
+                  - checkbox "" [ref=e579]
+                  - generic [ref=e581] [cursor=pointer]: 
+              - cell "testData5!" [ref=e582]:
+                - generic [ref=e583]: testData5!
+              - cell "ESS" [ref=e584]:
+                - generic [ref=e585]: ESS
+              - cell "Employee2 Dua" [ref=e586]:
+                - generic [ref=e587]: Employee2 Dua
+              - cell "Enabled" [ref=e588]:
+                - generic [ref=e589]: Enabled
+              - cell " " [ref=e590]:
+                - generic [ref=e591]:
+                  - button "" [ref=e592] [cursor=pointer]:
+                    - generic [ref=e593] [cursor=pointer]: 
+                  - button "" [ref=e594] [cursor=pointer]:
+                    - generic [ref=e595] [cursor=pointer]: 
+            - row " testuser1759319348471 Admin Ahmed Elian Enabled  " [ref=e597]:
+              - cell "" [ref=e598]:
+                - generic [ref=e601] [cursor=pointer]:
+                  - checkbox "" [ref=e602]
+                  - generic [ref=e604] [cursor=pointer]: 
+              - cell "testuser1759319348471" [ref=e605]:
+                - generic [ref=e606]: testuser1759319348471
+              - cell "Admin" [ref=e607]:
+                - generic [ref=e608]: Admin
+              - cell "Ahmed Elian" [ref=e609]:
+                - generic [ref=e610]: Ahmed Elian
+              - cell "Enabled" [ref=e611]:
+                - generic [ref=e612]: Enabled
+              - cell " " [ref=e613]:
+                - generic [ref=e614]:
+                  - button "" [ref=e615] [cursor=pointer]:
+                    - generic [ref=e616] [cursor=pointer]: 
+                  - button "" [ref=e617] [cursor=pointer]:
+                    - generic [ref=e618] [cursor=pointer]: 
+            - row " testuser1759319671816 Admin Ahmed Elian Enabled  " [ref=e620]:
+              - cell "" [ref=e621]:
+                - generic [ref=e624] [cursor=pointer]:
+                  - checkbox "" [ref=e625]
+                  - generic [ref=e627] [cursor=pointer]: 
+              - cell "testuser1759319671816" [ref=e628]:
+                - generic [ref=e629]: testuser1759319671816
+              - cell "Admin" [ref=e630]:
+                - generic [ref=e631]: Admin
+              - cell "Ahmed Elian" [ref=e632]:
+                - generic [ref=e633]: Ahmed Elian
+              - cell "Enabled" [ref=e634]:
+                - generic [ref=e635]: Enabled
+              - cell " " [ref=e636]:
+                - generic [ref=e637]:
+                  - button "" [ref=e638] [cursor=pointer]:
+                    - generic [ref=e639] [cursor=pointer]: 
+                  - button "" [ref=e640] [cursor=pointer]:
+                    - generic [ref=e641] [cursor=pointer]: 
+            - row " testuser1759319794351 Admin Ahmed Elian Enabled  " [ref=e643]:
+              - cell "" [ref=e644]:
+                - generic [ref=e647] [cursor=pointer]:
+                  - checkbox "" [ref=e648]
+                  - generic [ref=e650] [cursor=pointer]: 
+              - cell "testuser1759319794351" [ref=e651]:
+                - generic [ref=e652]: testuser1759319794351
+              - cell "Admin" [ref=e653]:
+                - generic [ref=e654]: Admin
+              - cell "Ahmed Elian" [ref=e655]:
+                - generic [ref=e656]: Ahmed Elian
+              - cell "Enabled" [ref=e657]:
+                - generic [ref=e658]: Enabled
+              - cell " " [ref=e659]:
+                - generic [ref=e660]:
+                  - button "" [ref=e661] [cursor=pointer]:
+                    - generic [ref=e662] [cursor=pointer]: 
+                  - button "" [ref=e663] [cursor=pointer]:
+                    - generic [ref=e664] [cursor=pointer]: 
+            - row " userFoCheckRecordsFound Admin Ahmed Elian Enabled  " [ref=e666]:
+              - cell "" [ref=e667]:
+                - generic [ref=e670] [cursor=pointer]:
+                  - checkbox "" [ref=e671]
+                  - generic [ref=e673] [cursor=pointer]: 
+              - cell "userFoCheckRecordsFound" [ref=e674]:
+                - generic [ref=e675]: userFoCheckRecordsFound
+              - cell "Admin" [ref=e676]:
+                - generic [ref=e677]: Admin
+              - cell "Ahmed Elian" [ref=e678]:
+                - generic [ref=e679]: Ahmed Elian
+              - cell "Enabled" [ref=e680]:
+                - generic [ref=e681]: Enabled
+              - cell " " [ref=e682]:
+                - generic [ref=e683]:
+                  - button "" [ref=e684] [cursor=pointer]:
+                    - generic [ref=e685] [cursor=pointer]: 
+                  - button "" [ref=e686] [cursor=pointer]:
+                    - generic [ref=e687] [cursor=pointer]: 
+    - generic [ref=e689]:
+      - paragraph [ref=e690]: OrangeHRM OS 5.7
+      - paragraph [ref=e691]:
+        - text: © 2005 - 2025
+        - link "OrangeHRM, Inc" [ref=e692] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```

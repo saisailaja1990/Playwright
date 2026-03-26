@@ -1,0 +1,9 @@
+Updated Booking: {
+  firstname: 'DgX0JL',
+  lastname: 'Doe',
+  totalprice: 800,
+  depositpaid: false,
+  bookingdates: { checkin: '2025-11-11', checkout: '2025-11-21' },
+  additionalneeds: 'Lunch'
+}
+Script executed successfully

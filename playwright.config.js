@@ -83,12 +83,16 @@ export default defineConfig({
   //   reuseExistingServer: !process.env.CI,
   // },
 
-  /* Configure Allure reporter */
+  /* Configure Allure reporter 
   reporter: [
     ['list'],
      ['html', { outputFolder: 'playwright-report', open: 'never' }],
    // ['allure-playwright', { outputFolder: 'allure-results' }],
-    ['allure-playwright', { outputFolder: 'allure-results' }],]
+    ['allure-playwright', { outputFolder: 'allure-results' }],]*/
+    reporter: [
+  ['list'],
+  ['allure-playwright']
+]
 
 
 });

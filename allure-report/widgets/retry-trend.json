@@ -1,1 +1,1 @@
-[{"data":{"run":5,"retry":37}}]
+[{"buildOrder":10,"reportUrl":"http://localhost:8080/job/PW%20emailgenerator/10/allure","reportName":"AllureReport","data":{"run":38,"retry":291}},{"buildOrder":9,"reportUrl":"http://localhost:8080/job/PW%20emailgenerator/9/allure","reportName":"AllureReport","data":{"run":38,"retry":290}}]

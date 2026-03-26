@@ -3,6 +3,7 @@ import { log } from "console";
 // Rest API https://restful-booker.herokuapp.com/apidoc/index.html
 test("Post call with token from Endpoint https://restful-booker.herokuapp.com/auth",async({request})=>
 {
+	
 	const authdata={
 					"username": "admin",
 					"password": "password123"}
@@ -33,6 +34,7 @@ test("Post call with BookingID from Endpoint restful-booker.herokuapp.com/bookin
 	const responseData =await response.json();
     
 	expect(responseData.bookingid).not.toBeNull()
+	console.log("BookingID is:",responseData.bookingid);
 	expect(responseData.booking.firstname).toBe(bookingdata.firstname)
     console.log("Firstname is:",responseData.booking.firstname);
 	expect(responseData.booking.lastname).toBe(bookingdata.lastname)
@@ -43,3 +45,4 @@ test("Post call with BookingID from Endpoint restful-booker.herokuapp.com/bookin
 	
 	expect(responseData.booking.additionalneeds).toBe(bookingdata.additionalneeds)
     })
+	

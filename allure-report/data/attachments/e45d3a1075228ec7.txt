@@ -1,0 +1,12 @@
+200
+{
+  bookingid: 1710,
+  booking: {
+    firstname: 'SailajaSuneel',
+    lastname: 'Kamisetty',
+    totalprice: 1500,
+    depositpaid: true,
+    bookingdates: { checkin: '2025-11-13', checkout: '2025-11-16' }
+  }
+}
+Firstname is: SailajaSuneel

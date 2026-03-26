@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test';
-import { generateRandomString, generateRandomDate } from '../Utility/reusableMethod';
+import { generateRandomString } from '../Utility/reusableMethod';
 import 'dotenv/config';
 import { console, url } from 'inspector';
 
-test('API Chaining: Auth, Create Booking, Get Booking', async ({ page }) => {
+test('API Chaining: Auth, Create Booking, Get Booking, Update Booking', async ({ page }) => {
    const baseURL = process.env.BASE_URL // 'https://restful-booker.herokuapp.com';
     // Step 1: Generate API Auth token
     const authResponse = await page.request.post(`${baseURL}/auth`, {
@@ -26,12 +26,12 @@ test('API Chaining: Auth, Create Booking, Get Booking', async ({ page }) => {
     let checkinDate = generateRandomDate();
     const bookingResponse = await page.request.post(`${baseURL}/booking`, {
         data: {
-            firstname: firstName,
+            firstname: 'Sailaja',
             lastname: 'Doe',
             totalprice: 150,
             depositpaid: true,
             bookingdates: {
-                checkin: checkinDate,
+                checkin: '2023-10-01'           ,
                 checkout: '2023-10-10'
             },
             additionalneeds: 'Breakfast'
@@ -47,15 +47,38 @@ test('API Chaining: Auth, Create Booking, Get Booking', async ({ page }) => {
     console.log('Created Booking:', responseData);
 
     expect(responseData).toHaveProperty('bookingid');
-    expect(responseData.booking).toHaveProperty('firstname', firstName);
+    expect(responseData.booking).toHaveProperty('firstname', 'Sailaja');
 
     // Step 3: Get the created booking by ID
     const getResponse = await page.request.get(`${baseURL}/booking/${bookingId}`);
     expect(getResponse.status()).toBe(200);
     const bookingDetails = await getResponse.json();
     console.log('Booking Details:', bookingDetails);
+    // Step 4: Update the booking
+
+    const updatedFirstName = generateRandomString(6);
+    const updateResponse = await page.request.put(`${baseURL}/booking/${bookingId}`, {headers: {"Content-Type": "application/json",
+    "Accept": "application/json",
+    "Cookie": `token=${authToken}`},
+        data: {
+            firstname: updatedFirstName,
+            lastname: 'Doe',
+            totalprice: 200,
+            depositpaid: false,
+            bookingdates: {
+                checkin: checkin,
+                checkout: checkout
+            },
+            additionalneeds: 'Lunch'
+        }
+    });
+    expect(updateResponse.status()).toBe(200);
+    const updatedBooking = await updateResponse.json();
+    console.log('Updated Booking:', updatedBooking);    
+
     console.log("Script executed successfully");
 });
+
 /*npm install --save-dev dotenv-cli
 npx dotenv -e .env.prod -- npx playwright test tests/APIautomation/APIChaining2.spec.js --headed
 npx dotenv -e .env.prod -- npx playwright test tests/APIautomation/APIChaining2.spec.js --reporter=html

@@ -7,18 +7,39 @@ function generateRandomString(length) {
     }
     return result;
 }
+console.log(generateRandomString(8));
+console.log("---------------------------------------------------");
 
-function generateRandomDate() {
-    const start = new Date(2020, 0, 1);
-    const end = new Date(2100, 11, 31);
-    const randomDate = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-    return randomDate.toISOString().split('T')[0]; // Returns date in YYYY-MM-DD format
+
+function getRandomDateInCurrentMonth() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = now.getMonth(); // 0–11
+
+  // Find how many days are in the current month
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+  // Pick a random day (1 → daysInMonth)
+  const day = Math.floor(Math.random() * daysInMonth) + 1;
+
+  return new Date(year, month, day);
 }
 
-// Example usage:
-// console.log(generateRandomString(10)); // e.g., 'aB3dE5gH1J'
-// console.log(generateRandomDate()); // e.g., '2023-07-15'
+function formatDate(date) {
+  return date.toISOString().split('T')[0];
+}
+function generateBookingDates() {
+  const checkin = getRandomDateInCurrentMonth();
+  const checkout = new Date(checkin);
+  checkout.setDate(checkout.getDate() + 10);
 
-module.exports = { generateRandomString,
-    generateRandomDate
- };
+  return {
+    checkin: formatDate(checkin),
+    checkout: formatDate(checkout)
+  };
+}
+/*const { checkin, checkout } = generateBookingDates();
+
+console.log("Check-in:", checkin);
+console.log("Check-out:", checkout);*/
+module.exports = { generateRandomString, generateBookingDates };

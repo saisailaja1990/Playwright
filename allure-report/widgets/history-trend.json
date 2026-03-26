@@ -1,1 +1,1 @@
-[{"data":{"failed":1,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":5}}]
+[{"buildOrder":10,"reportUrl":"http://localhost:8080/job/PW%20emailgenerator/10/allure","reportName":"AllureReport","data":{"failed":8,"broken":2,"skipped":0,"passed":28,"unknown":0,"total":38}},{"buildOrder":9,"reportUrl":"http://localhost:8080/job/PW%20emailgenerator/9/allure","reportName":"AllureReport","data":{"failed":8,"broken":2,"skipped":0,"passed":28,"unknown":0,"total":38}}]
