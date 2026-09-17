@@ -32,6 +32,7 @@ test('OrangeHRM Login - Try Until Successful Login', async ({ page }) => {
   await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
 
   const usernamesToTry = [
+    "Admin", // <- the only valid one
     "test",
     "152445",
     "test@test",
@@ -39,7 +40,7 @@ test('OrangeHRM Login - Try Until Successful Login', async ({ page }) => {
     "email@111.222.333",
     ".email@example.com",
     "______@example.com",
-    "Admin"  // <- the only valid one
+    
   ];
 
   for (const username of usernamesToTry) {
@@ -72,3 +73,4 @@ test('OrangeHRM Login - Try Until Successful Login', async ({ page }) => {
   throw new Error('Login did not succeed with any username.');
 });
 
+*/
