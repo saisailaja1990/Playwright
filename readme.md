@@ -38,3 +38,56 @@ Here's what a complete, production-ready Playwright workflow actually looks like
 ✅ Validate every deployment before it moves forward
 🔥 Run production smoke tests post-release
 🎯 Release with full confidence - every single time
+
+Yaml file content to run web browser UI Automation 
+
+name: Playwright Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.x'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright tests (with reporters from config)
+        run: npx playwright test tests/APIautomation/APIFileUpload.spec.js
+      - name: List Allure results
+        run: ls -R allure-results || echo "No allure-results found!"
+
+      - name: Install Allure CLI
+        run: npm install -g allure-commandline --save-dev
+
+      - name: Generate Allure report
+        run: allure generate ./allure-results --clean -o ./allure-report
+
+      - name: Upload Allure report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: ./allure-report
+      - name: Deploy Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
