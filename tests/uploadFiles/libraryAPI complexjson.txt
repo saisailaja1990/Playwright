@@ -1,0 +1,72 @@
+Handling Complex Nestes Json 
+1.Go to JSON Editor Online.org
+2. Copy and paste complex JSON to Node form
+NOTE:
+If we dont have any API with desired response then Create a mock response to do further testing.
+
+
+For Example Test Cases 
+
+1.Print No of courses retured by API
+
+2. Print Purchase Amount
+
+3.Print Title of the first course
+
+4.Print All course titles and their respective Prices
+
+5.Print no of copies sold by RPA Course
+
+6.Verify if sum of all Course prices matches with Purchase amount.
+
+The following is the complex Nested Json:
+
+{
+
+"dashboard": {
+
+"purchaseAmount": 910,
+
+"website": "rahulshettyacademy.com"
+
+},
+
+"courses": [
+
+{
+
+"title": "Selenium Python",
+
+"price": 50,
+
+"copies": 6
+
+},
+
+{
+
+"title": "Cypress",
+
+"price": 40,
+
+"copies": 4
+
+},
+
+{
+
+"title": "RPA",
+
+"price": 45,
+
+"copies": 10
+
+}
+
+]
+
+}
+
+
+
+
