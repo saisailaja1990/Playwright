@@ -1,0 +1,42 @@
+username: admin
+password: password123
+Auth Token: 8f54dc5f93170d2
+Created Booking: {
+  bookingid: 1978,
+  booking: {
+    firstname: 'Sailaja',
+    lastname: 'Doe',
+    totalprice: 150,
+    depositpaid: true,
+    bookingdates: { checkin: '2023-10-01', checkout: '2023-10-10' },
+    additionalneeds: 'Breakfast'
+  }
+}
+TAKE GET RESPONSE
+Booking Details: {
+  firstname: 'Sailaja',
+  lastname: 'Doe',
+  totalprice: 150,
+  depositpaid: true,
+  bookingdates: { checkin: '2023-10-01', checkout: '2023-10-10' },
+  additionalneeds: 'Breakfast'
+}
+Response Body: NaN
+Response Body: {"firstname":"Sailaja","lastname":"Doe","totalprice":150,"depositpaid":true,"bookingdates":{"checkin":"2023-10-01","checkout":"2023-10-10"},"additionalneeds":"Breakfast"}
+Response Body: {
+  firstname: 'Sailaja',
+  lastname: 'Doe',
+  totalprice: 150,
+  depositpaid: true,
+  bookingdates: { checkin: '2023-10-01', checkout: '2023-10-10' },
+  additionalneeds: 'Breakfast'
+}
+Updated Booking: {
+  firstname: 'dQWjE4',
+  lastname: 'Doe',
+  totalprice: 3000,
+  depositpaid: false,
+  bookingdates: { checkin: '2026-09-06', checkout: '2026-09-16' },
+  additionalneeds: 'Lunch'
+}
+Script executed successfully

@@ -1,0 +1,16 @@
+Trying username: test
+Login failed with username: test
+Trying username: 152445
+Login failed with username: 152445
+Trying username: test@test
+Login failed with username: test@test
+Trying username: #@%*&$$@#.com
+Login failed with username: #@%*&$$@#.com
+Trying username: email@111.222.333
+Login failed with username: email@111.222.333
+Trying username: .email@example.com
+Login failed with username: .email@example.com
+Trying username: ______@example.com
+Login failed with username: ______@example.com
+Trying username: Admin
+Login successful with username: Admin

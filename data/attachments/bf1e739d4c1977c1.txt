@@ -1,0 +1,43 @@
+username: admin
+password: password123
+Auth Token: 7e6764c23d576f4
+Created Booking: {
+  bookingid: 2111,
+  booking: {
+    firstname: 'Sailaja',
+    lastname: 'Doe',
+    totalprice: 150,
+    depositpaid: true,
+    bookingdates: { checkin: '2023-10-01', checkout: '2023-10-10' },
+    additionalneeds: 'Breakfast'
+  }
+}
+TAKE GET RESPONSE
+Response Body: NaN
+Response Body: {"firstname":"Sailaja","lastname":"Doe","totalprice":150,"depositpaid":true,"bookingdates":{"checkin":"2023-10-01","checkout":"2023-10-10"},"additionalneeds":"Breakfast"}
+Response Body: {
+  firstname: 'Sailaja',
+  lastname: 'Doe',
+  totalprice: 150,
+  depositpaid: true,
+  bookingdates: { checkin: '2023-10-01', checkout: '2023-10-10' },
+  additionalneeds: 'Breakfast'
+}
+Updated Booking: {
+  firstname: 'hI4ZuU',
+  lastname: 'Doe',
+  totalprice: 3000,
+  depositpaid: false,
+  bookingdates: { checkin: '2026-09-05', checkout: '2026-09-15' },
+  additionalneeds: 'Lunch'
+}
+Schema validation for get response
+Response Body: {
+  firstname: 'hI4ZuU',
+  lastname: 'Doe',
+  totalprice: 3000,
+  depositpaid: false,
+  bookingdates: { checkin: '2026-09-05', checkout: '2026-09-15' },
+  additionalneeds: 'Lunch'
+}
+Script executed successfully
