@@ -21,7 +21,7 @@ test.describe.serial('File Upload and  Download', () => {
                 multipart: {
                     file: {
                         name: 'Test2.txt',
-                        mimeType: 'text/plain',
+                        mimeType: 'text/plain',// browser MIME type in browser based on the file extension
                         buffer: fs.readFileSync('C:/Playwright/tests/uploadFiles/libraryAPI complexjson.txt')//C:\Playwright\tests\uploadFiles\libraryAPI complexjson.txt
                     }
                 }
